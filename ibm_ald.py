@@ -3,7 +3,7 @@ from tkinter import ttk as ttk
 import json
 import platform
 if platform.system() == "Windows":
-	font = 'Consolas'
+	font = 'Lucida Console'
 else:
 	font = 'Andale Mono'
 
