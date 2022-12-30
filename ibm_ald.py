@@ -1,6 +1,11 @@
 import tkinter as tk
 from tkinter import ttk as ttk
 import json
+import platform
+if platform.system() == "Windows":
+	font = 'Consolas'
+else:
+	font = 'Andale Mono'
 
 posYDecode = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6, "H": 7, "J": 8, "K": 9, "L": 10, "M": 11, "N": 12}
 
@@ -76,7 +81,7 @@ renderButton = tk.Button(topframe, text="Render", command=renderALD)
 renderButton.pack(side = "left")
 #text = tk.Text(bottomframe, font=('Andale Mono', 10), height=100, width=242, wrap = "none")
 #text.pack(side = "bottom")
-aldWindow = tk.Text(bottomframe, font=('Andale Mono', 12), height=104, width=242, wrap = "none")
+aldWindow = tk.Text(bottomframe, font=(font, 12), height=104, width=242, wrap = "none")
 ys = ttk.Scrollbar(bottomframe, orient = 'vertical', command = aldWindow.yview)
 xs = ttk.Scrollbar(bottomframe, orient = 'horizontal', command = aldWindow.xview)
 aldWindow['yscrollcommand'] = ys.set
