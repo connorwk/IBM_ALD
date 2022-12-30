@@ -44,6 +44,7 @@ def renderALD():
 		posx = ((int(pos[0])-1) * 23) + 38
 		posy = (posYDecode[pos[1]] * 7) + 3
 		# Each block has a space of 23x7
+		# Render Block
 		for y in range(7):
 			aldWindow.delete(str(posy+y) + "." + str(posx+9), str(posy+y) + "." + str(posx+16))
 		if block["Name"] != "":
@@ -56,6 +57,7 @@ def renderALD():
 		aldWindow.insert(str(posy+4) + "." + str(posx+9), "│" + str(block["CardType"]).ljust(4) + str(block["SubPortion"]).ljust(2) + "│")
 		aldWindow.insert(str(posy+5) + "." + str(posx+9), "│" + str(block["Location"]).ljust(6) + "│")
 		aldWindow.insert(str(posy+6) + "." + str(posx+9), "│" + block["PrintPos"] + "──" + blockSN + "│")
+		# Render Block's IO
 		for ioLoc in block["IO"]:
 			io = block["IO"][ioLoc]
 			if str(ioLoc).isnumeric():
@@ -80,6 +82,12 @@ def renderALD():
 							aldWindow.replace(str(posy+posYDecode[ioLoc]) + "." + str(posx+9), str(posy+posYDecode[ioLoc]) + "." + str(posx+10), "◺")
 						case _:
 							aldWindow.replace(str(posy+posYDecode[ioLoc]) + "." + str(posx+9), str(posy+posYDecode[ioLoc]) + "." + str(posx+10), io["Func"])
+	# Render PageIn Connections
+	for conn in ald_data["pages"][pagenum]["Connections"]["PageIn"]:
+		pos = conn["PrintPos"]
+		row = (posYDecode[pos[0]] * 7) + 3
+		posy = row + int(pos[1]) - 1
+		aldWindow.replace(str(posy) + ".0", str(posy) + ".39", str(conn["Name"]).ljust(30,"─") + conn["Page"] + conn["SrcPin"])
 
 
 window = tk.Tk()

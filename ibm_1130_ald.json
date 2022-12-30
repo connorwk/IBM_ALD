@@ -35,9 +35,11 @@
 			}
 		},
 		"Connections": {
-			"PageIn": {
-				"RN101BJ2": {
+			"PageIn": [
+				{
 					"Name": "+ OP BIT 3",
+					"Page": "RN101",
+					"SrcPin": "BJ2",
 					"BlockSNInPos": {
 						"AA": "F",
 						"AD": "D",
@@ -46,7 +48,7 @@
 					},
 					"PrintPos": "A5"
 				}
-			},
+			],
 			"OnPage": {
 				"BD": {
 					"4": {
