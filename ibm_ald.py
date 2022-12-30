@@ -7,7 +7,7 @@ if platform.system() == "Windows":
 else:
 	font = 'Andale Mono'
 
-posYDecode = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6, "H": 7, "J": 8, "K": 9, "L": 10, "M": 11, "N": 12}
+posYDecode = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6, "H": 7, "J": 8, "K": 9, "L": 10, "M": 11, "N": 12, "P": 13, "Q": 14, "R": 15, "S": 16, "T": 17, "U": 18, "V": 19, "W": 20, "X": 21, "Y": 22, "Z": 23}
 
 ald_data = {}
 aldText = ""
@@ -56,6 +56,30 @@ def renderALD():
 		aldWindow.insert(str(posy+4) + "." + str(posx+9), "│" + str(block["CardType"]).ljust(4) + str(block["SubPortion"]).ljust(2) + "│")
 		aldWindow.insert(str(posy+5) + "." + str(posx+9), "│" + str(block["Location"]).ljust(6) + "│")
 		aldWindow.insert(str(posy+6) + "." + str(posx+9), "│" + block["PrintPos"] + "──" + blockSN + "│")
+		for ioLoc in block["IO"]:
+			io = block["IO"][ioLoc]
+			if str(ioLoc).isnumeric():
+				if io["Pin"] == "---":
+					aldWindow.replace(str(posy+int(ioLoc)-1) + "." + str(posx+17), str(posy+int(ioLoc)-1) + "." + str(posx+20), "───")
+				else:
+					aldWindow.replace(str(posy+int(ioLoc)-1) + "." + str(posx+17), str(posy+int(ioLoc)-1) + "." + str(posx+20), io["Pin"])
+				if io["Func"] != "":
+					match io["Func"]:
+						case 'i':
+							aldWindow.replace(str(posy+int(ioLoc)-1) + "." + str(posx+16), str(posy+int(ioLoc)-1) + "." + str(posx+17), "◺")
+						case _:
+							aldWindow.replace(str(posy+int(ioLoc)-1) + "." + str(posx+16), str(posy+int(ioLoc)-1) + "." + str(posx+17), io["Func"])
+			else:
+				if io["Pin"] == "---":
+					aldWindow.replace(str(posy+posYDecode[ioLoc]) + "." + str(posx+6), str(posy+posYDecode[ioLoc]) + "." + str(posx+9), "───")
+				else:
+					aldWindow.replace(str(posy+posYDecode[ioLoc]) + "." + str(posx+6), str(posy+posYDecode[ioLoc]) + "." + str(posx+9), io["Pin"])
+				if io["Func"] != "":
+					match io["Func"]:
+						case 'i':
+							aldWindow.replace(str(posy+posYDecode[ioLoc]) + "." + str(posx+9), str(posy+posYDecode[ioLoc]) + "." + str(posx+10), "◺")
+						case _:
+							aldWindow.replace(str(posy+posYDecode[ioLoc]) + "." + str(posx+9), str(posy+posYDecode[ioLoc]) + "." + str(posx+10), io["Func"])
 
 
 window = tk.Tk()
