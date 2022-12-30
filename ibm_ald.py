@@ -8,9 +8,13 @@ else:
 	font = 'Andale Mono'
 
 posYDecode = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6, "H": 7, "J": 8, "K": 9, "L": 10, "M": 11, "N": 12, "P": 13, "Q": 14, "R": 15, "S": 16, "T": 17, "U": 18, "V": 19, "W": 20, "X": 21, "Y": 22, "Z": 23}
+posYEncode = ("A", "B", "C", "D", "E", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")
+
 
 ald_data = {}
 aldText = ""
+# Used for routing to know if a block is populated.
+block_pop = {}
 
 def fileLoad():
 	with open(file.get()) as fh:
@@ -22,6 +26,103 @@ def fileSave():
 	json_object = json.dumps(ald_data, indent=4)
 	with open(file.get(), "w") as fh:
 			fh.write(json_object)
+
+def locOffset(loc):
+	if str(loc).isnumeric():
+		return int(loc)-1
+	else:
+		return posYDecode[loc]
+
+# Returns the Block location code EX: 2B
+# This is the 23x7 area a block is in
+# We can compare to block_pop for routing around populated blocks
+# We do however have to check the lower block if it has a name
+def getBlockLoc(loc):
+	posX = str((loc["x"]-38) // 23)
+	posY = posYEncode[(loc["y"]-3) // 7]
+	return (posX + posY)
+
+# Returns the route location, which is where lines are routable
+# EX Block vs Route Col: Route0, Block1, Route1, Block2, Route2...
+def getRouteLoc(loc):
+	col = (loc["x"]-38) // 23
+	if ((loc["x"]-38) % 23) == 22:
+		# On the output side so need to add 1 to col
+		col = col + 1
+	row = (loc["y"]-3) // 7
+	loc["row"] = row
+	loc["col"] = col
+	return loc
+
+def getXinBlock(loc):
+	return ((loc["x"]-38) % 23)
+
+def getYinBlock(loc):
+	return(loc["y"]-3) % 7
+
+# Returns the pin's x,y and route row,col
+def getPinLoc(pagenum, blockSN, pinLoc):
+	block = ald_data["pages"][pagenum]["BlockSN"][blockSN]
+	pos = block["PrintPos"]
+	piny = (locOffset(pos[1]) * 7) + 3 + locOffset(pinLoc)
+	row = locOffset(pos[1])
+	if str(pinLoc).isnumeric():
+		pinx = (locOffset(pos[0]) * 23) + 38 + 22
+		col = locOffset(pos[0]) + 1
+	else:
+		pinx = (locOffset(pos[0]) * 23) + 38 + 6
+		col = locOffset(pos[0])
+	
+	return {"x":pinx, "y":piny, "row":row, "col":col}
+
+def routeDown():
+	return 0
+
+def routeUp():
+	return 0
+
+def routeLeft():
+	return 0
+
+def routeRight():
+	return 0
+
+def routeTrace(startLoc, endLoc):
+	currLoc = startLoc
+	while currLoc != endLoc:
+		while currLoc["row"] != endLoc["row"]:
+			while currLoc["col"] != endLoc["col"]:
+				nextLoc = currLoc
+				nextLoc["x"] = nextLoc["x"] + 1
+				if getBlockLoc(nextLoc) in block_pop:
+					print("Hit populated block routing right")
+					nextLoc = currLoc
+					nextLoc["y"] = nextLoc["y"] + 1
+				char = aldWindow.get(str(nextLoc["y"]) + "." + str(nextLoc["x"]), str(nextLoc["y"]+1) + "." + str(nextLoc["x"]))
+				match char:
+					case "┌":
+						print("Hit trace routing right")
+						nextLoc = currLoc
+						nextLoc["y"] = nextLoc["y"] - 1
+					case "└":
+						print("Hit trace routing right")
+						nextLoc = currLoc
+						nextLoc["y"] = nextLoc["y"] + 1
+					case "◊":
+						print("Hit trace routing right")
+						nextLoc = currLoc
+						if getYinBlock(currLoc) <= 3:
+							# Route Up
+							print()
+						else:
+							# Route Down
+							print()
+						nextLoc["y"] = nextLoc["y"] + 1
+					case "│":
+						aldWindow.replace(str(nextLoc["y"]) + "." + str(nextLoc["x"]), str(nextLoc["y"]) + "." + str(nextLoc["x"]), "┼")
+
+		print()
+	return 0
 
 def renderALD():
 	pagenum = page.get()
@@ -43,15 +144,19 @@ def renderALD():
 		pos = block["PrintPos"]
 		posx = ((int(pos[0])-1) * 23) + 38
 		posy = (posYDecode[pos[1]] * 7) + 3
+		if block["Name"] != "":
+			block_pop[pos] = 1
+		else:
+			block_pop[pos] = 0
+
 		# Each block has a space of 23x7
 		# Render Block
 		for y in range(7):
 			aldWindow.delete(str(posy+y) + "." + str(posx+9), str(posy+y) + "." + str(posx+16))
 		if block["Name"] != "":
-			aldWindow.delete(str(posy+y) + "." + str(posx+9), str(posy-1) + "." + str(posx+16))
-			aldWindow.insert(str(posy-1) + "." + str(posx+9), str(block["Name"]).center(8))
+			aldWindow.replace(str(posy-1) + "." + str(posx+6), str(posy-1) + "." + str(posx+20), str(block["Name"]).center(14))
 		aldWindow.insert(str(posy) + "." + str(posx+9), "┌──────┐")
-		aldWindow.insert(str(posy+1) + "." + str(posx+9), "│" + block["Func"] + "│")
+		aldWindow.insert(str(posy+1) + "." + str(posx+9), "│" + str(block["Func"]).ljust(6) + "│")
 		aldWindow.insert(str(posy+2) + "." + str(posx+9), "│" + str(block["ACC"]).ljust(4) + str(block["SP"]).rjust(2) + "│")
 		aldWindow.insert(str(posy+3) + "." + str(posx+9), "│" + str(block["CircuitNum"]).ljust(6) + "│")
 		aldWindow.insert(str(posy+4) + "." + str(posx+9), "│" + str(block["CardType"]).ljust(4) + str(block["SubPortion"]).ljust(2) + "│")
@@ -62,26 +167,36 @@ def renderALD():
 			io = block["IO"][ioLoc]
 			if str(ioLoc).isnumeric():
 				if io["Pin"] == "---":
-					aldWindow.replace(str(posy+int(ioLoc)-1) + "." + str(posx+17), str(posy+int(ioLoc)-1) + "." + str(posx+20), "───")
+					aldWindow.replace(str(posy+locOffset(ioLoc)) + "." + str(posx+17), str(posy+locOffset(ioLoc)) + "." + str(posx+20), "───")
 				else:
-					aldWindow.replace(str(posy+int(ioLoc)-1) + "." + str(posx+17), str(posy+int(ioLoc)-1) + "." + str(posx+20), io["Pin"])
+					aldWindow.replace(str(posy+locOffset(ioLoc)) + "." + str(posx+17), str(posy+locOffset(ioLoc)) + "." + str(posx+20), io["Pin"])
 				if io["Func"] != "":
 					match io["Func"]:
 						case 'i':
-							aldWindow.replace(str(posy+int(ioLoc)-1) + "." + str(posx+16), str(posy+int(ioLoc)-1) + "." + str(posx+17), "◺")
+							aldWindow.replace(str(posy+locOffset(ioLoc)) + "." + str(posx+16), str(posy+locOffset(ioLoc)) + "." + str(posx+17), "◺")
 						case _:
-							aldWindow.replace(str(posy+int(ioLoc)-1) + "." + str(posx+16), str(posy+int(ioLoc)-1) + "." + str(posx+17), io["Func"])
+							aldWindow.replace(str(posy+locOffset(ioLoc)) + "." + str(posx+16), str(posy+locOffset(ioLoc)) + "." + str(posx+17), io["Func"])
 			else:
 				if io["Pin"] == "---":
-					aldWindow.replace(str(posy+posYDecode[ioLoc]) + "." + str(posx+6), str(posy+posYDecode[ioLoc]) + "." + str(posx+9), "───")
+					aldWindow.replace(str(posy+locOffset(ioLoc)) + "." + str(posx+6), str(posy+locOffset(ioLoc)) + "." + str(posx+9), "───")
 				else:
-					aldWindow.replace(str(posy+posYDecode[ioLoc]) + "." + str(posx+6), str(posy+posYDecode[ioLoc]) + "." + str(posx+9), io["Pin"])
+					aldWindow.replace(str(posy+locOffset(ioLoc)) + "." + str(posx+6), str(posy+locOffset(ioLoc)) + "." + str(posx+9), io["Pin"])
 				if io["Func"] != "":
 					match io["Func"]:
 						case 'i':
-							aldWindow.replace(str(posy+posYDecode[ioLoc]) + "." + str(posx+9), str(posy+posYDecode[ioLoc]) + "." + str(posx+10), "◺")
+							aldWindow.replace(str(posy+locOffset(ioLoc)) + "." + str(posx+9), str(posy+locOffset(ioLoc)) + "." + str(posx+10), "◺")
 						case _:
-							aldWindow.replace(str(posy+posYDecode[ioLoc]) + "." + str(posx+9), str(posy+posYDecode[ioLoc]) + "." + str(posx+10), io["Func"])
+							aldWindow.replace(str(posy+locOffset(ioLoc)) + "." + str(posx+9), str(posy+locOffset(ioLoc)) + "." + str(posx+10), io["Func"])
+	# Render OnPage Connections
+	for blockSN in ald_data["pages"][pagenum]["Connections"]["OnPage"]:
+		conn = ald_data["pages"][pagenum]["Connections"]["OnPage"][blockSN]
+		for outLoc in conn:
+			for toConnBlockSN in conn[outLoc]:
+				startLoc = getPinLoc(pagenum, blockSN, outLoc)
+				endLoc = getPinLoc(pagenum, toConnBlockSN, conn[outLoc][toConnBlockSN])
+				#routeTrace(startLoc, endLoc)
+
+
 	# Render PageIn Connections
 	for conn in ald_data["pages"][pagenum]["Connections"]["PageIn"]:
 		pos = conn["PrintPos"]

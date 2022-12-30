@@ -18,7 +18,7 @@
 			},
 			"AA": {
 				"Name": "00110",
-				"Func": "A     ",
+				"Func": "A",
 				"ACC": "", "SP": "",
 				"CircuitNum": "T03AC",
 				"CardType": "4676", "SubPortion": "A1",
@@ -31,6 +31,23 @@
 					"E": {"Pin": "G10", "Func": ""},
 					"F": {"Pin": "J10", "Func": ""},
 					"4": {"Pin": "---", "Func": ""}
+				}
+			},
+			"AC": {
+				"Name": "XIO",
+				"Func": "A",
+				"ACC": "", "SP": "",
+				"CircuitNum": "T03AB",
+				"CardType": "4676", "SubPortion": "A3",
+				"Location": "B-A1C2",
+				"PrintPos": "2D",
+				"IO": {
+					"B": {"Pin": "J11", "Func": ""},
+					"C": {"Pin": "J13", "Func": ""},
+					"D": {"Pin": "J09", "Func": ""},
+					"E": {"Pin": "G07", "Func": ""},
+					"F": {"Pin": "J12", "Func": ""},
+					"4": {"Pin": "J02", "Func": "i"}
 				}
 			}
 		},
@@ -63,7 +80,7 @@
 				"AC": {
 					"4": {
 						"AM": "D",
-						"AC4": "C7"
+						"out": "C7"
 					}
 				}
 			},
