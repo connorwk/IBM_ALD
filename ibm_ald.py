@@ -20,6 +20,8 @@ def fileSave():
 
 def renderALD():
 	pagenum = page.get()
+	if "pages" not in ald_data:
+		return
 	if pagenum not in ald_data["pages"]:
 		return
 	aldWindow.delete('1.0', 'end')
@@ -31,12 +33,24 @@ def renderALD():
 		aldText = aldText + "\n"
 	aldWindow.insert('end', aldText)
 
-	for block in ald_data["pages"][pagenum]["BlockSN"]:
+	for blockSN in ald_data["pages"][pagenum]["BlockSN"]:
+		block = ald_data["pages"][pagenum]["BlockSN"][blockSN]
 		pos = block["PrintPos"]
 		posx = ((int(pos[0])-1) * 23) + 38
 		posy = (posYDecode[pos[1]] * 7) + 3
 		# Each block has a space of 23x7
-		
+		for y in range(7):
+			aldWindow.delete(str(posy+y) + "." + str(posx+9), str(posy+y) + "." + str(posx+16))
+		if block["Name"] != "":
+			aldWindow.delete(str(posy+y) + "." + str(posx+9), str(posy-1) + "." + str(posx+16))
+			aldWindow.insert(str(posy-1) + "." + str(posx+9), str(block["Name"]).center(8))
+		aldWindow.insert(str(posy) + "." + str(posx+9), "┌──────┐")
+		aldWindow.insert(str(posy+1) + "." + str(posx+9), "│" + block["Func"] + "│")
+		aldWindow.insert(str(posy+2) + "." + str(posx+9), "│" + str(block["ACC"]).ljust(4) + str(block["SP"]).rjust(2) + "│")
+		aldWindow.insert(str(posy+3) + "." + str(posx+9), "│" + str(block["CircuitNum"]).ljust(6) + "│")
+		aldWindow.insert(str(posy+4) + "." + str(posx+9), "│" + str(block["CardType"]).ljust(4) + str(block["SubPortion"]).ljust(2) + "│")
+		aldWindow.insert(str(posy+5) + "." + str(posx+9), "│" + str(block["Location"]).ljust(6) + "│")
+		aldWindow.insert(str(posy+6) + "." + str(posx+9), "│" + block["PrintPos"] + "──" + blockSN + "│")
 
 
 window = tk.Tk()
@@ -49,12 +63,14 @@ bottomframe.pack(side = "bottom")
 lbl1 = tk.Label(topframe, text="File:")
 lbl1.pack(side = "left")
 file = tk.Entry(topframe, width=20)
+file.insert("end", "test.json")
 file.pack(side = "left")
 fileLoadButton = tk.Button(topframe, text="Load", command=fileLoad)
 fileLoadButton.pack(side = "left")
 fileSaveButton = tk.Button(topframe, text="Save", command=fileSave)
 fileSaveButton.pack(side = "left")
 page = tk.Entry(topframe, width=10)
+page.insert("end", "DN101")
 page.pack(side = "left")
 renderButton = tk.Button(topframe, text="Render", command=renderALD)
 renderButton.pack(side = "left")

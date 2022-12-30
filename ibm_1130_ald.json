@@ -4,6 +4,7 @@
 		"Name": "OP DECODE NO. 1",
 		"BlockSN": {
 			"BD": {
+				"Name": "",
 				"Func": " SERV*",
 				"ACC": "", "SP": "",
 				"CircuitNum": "GND",
