@@ -32,3975 +32,3999 @@
 	"circuit_dict": {
 		"S03AG": {
 			"desc": "Multiplex Interface Driver-M4",
-			"module": ""
+			"module": [""]
 		},
 		"S03AH": {
 			"desc": "Select Safety",
-			"module": ""
+			"module": [""]
 		},
 		"S03AI": {
 			"desc": "AND-Double Gate",
-			"module": ""
+			"module": [""]
 		},
 		"S03AJ": {
 			"desc": "AND-Harper Gate",
-			"module": "361435"
+			"module": ["361435"]
 		},
 		"S03AW": {
 			"desc": "Special Receiver 750 Ohm Load",
-			"module": ""
+			"module": [""]
 		},
 		"S03SA": {
 			"desc": "Negative OR Diodes",
-			"module": ""
+			"module": [""]
 		},
 		"S03SC": {
 			"desc": "Current Control and Emitter Load",
-			"module": ""
+			"module": [""]
 		},
 		"S03SD": {
 			"desc": "Resistor OR",
-			"module": ""
+			"module": [""]
 		},
 		"S03SE": {
 			"desc": "High Voltage AND",
-			"module": ""
+			"module": [""]
 		},
 		"S03SF": {
 			"desc": "AC AND",
-			"module": ""
+			"module": [""]
 		},
 		"S03SG": {
 			"desc": "AC AND",
-			"module": ""
+			"module": [""]
 		},
 		"S03SJ": {
 			"desc": "Binary Output",
-			"module": ""
+			"module": [""]
 		},
 		"S03SK": {
 			"desc": "AC Set and Reset",
-			"module": ""
+			"module": [""]
 		},
 		"S03SL": {
 			"desc": "Minus AND",
-			"module": ""
+			"module": [""]
 		},
 		"S03SM": {
 			"desc": "Negative AND",
-			"module": ""
+			"module": [""]
 		},
 		"S03SN": {
 			"desc": "Dual Diode OR",
-			"module": ""
+			"module": [""]
 		},
 		"S03SO": {
 			"desc": "Dual Diode AND",
-			"module": ""
+			"module": [""]
 		},
 		"S03SP": {
 			"desc": "Non Symetrical OR",
-			"module": ""
+			"module": [""]
 		},
 		"S03SQ": {
 			"desc": "AND-Double Gate",
-			"module": ""
+			"module": [""]
 		},
 		"S05AB": {
 			"desc": "U to T Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S05AC": {
 			"desc": "L to U Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S05AE": {
 			"desc": "Multiplex Interface Receiver",
-			"module": ""
+			"module": [""]
 		},
 		"S05AG": {
 			"desc": "SLT Standard Interface Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S05AH": {
 			"desc": "Isolating Inverter",
-			"module": ""
+			"module": ["361479"]
 		},
 		"S05AJ": {
 			"desc": "Hi-Gain Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S05AK": {
 			"desc": "Unity Gain Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S05AM": {
 			"desc": "Final Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S05AO": {
 			"desc": "Delay Line Terminator",
-			"module": ""
+			"module": [""]
 		},
 		"S05AR": {
 			"desc": "Multiplex Interface Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S05AS": {
 			"desc": "Isolating Intverter No Load",
-			"module": ""
+			"module": ["361479"]
 		},
 		"S05AT": {
 			"desc": "U to L Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S05AU": {
 			"desc": "T to L Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S05AW": {
 			"desc": "5ns to 30ns Interface",
-			"module": ""
+			"module": [""]
 		},
 		"S05AZ": {
 			"desc": "Interface Transmitter",
-			"module": ""
+			"module": [""]
 		},
 		"S05CA": {
 			"desc": "Input Amplifier Disc Speed Detect",
-			"module": ""
+			"module": [""]
 		},
 		"S05CB": {
 			"desc": "Output Amplifier Disc Speed Detect",
-			"module": ""
+			"module": [""]
 		},
 		"S05CD": {
 			"desc": "50 Ohm Cable Driver Circuit",
-			"module": ""
+			"module": [""]
 		},
 		"S05CE": {
 			"desc": "S to SLT Level Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S05CF": {
 			"desc": "Cable Terminator Circuit",
-			"module": ""
+			"module": [""]
 		},
 		"S05CH": {
 			"desc": "Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S05CI": {
 			"desc": "Clamping Terminator",
-			"module": ""
+			"module": [""]
 		},
 		"S05CJ": {
 			"desc": "Transmission Line Driver With GA",
-			"module": ""
+			"module": ["361427"]
 		},
 		"S05CM": {
 			"desc": "SLT +3V to +5V Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S05EB": {
 			"desc": "NAND SLT Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S05EC": {
 			"desc": "SLT NAND Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S05SA": {
 			"desc": "Isolating Inverter With Delay",
-			"module": ""
+			"module": [""]
 		},
 		"S05SB": {
 			"desc": "Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S05SC": {
 			"desc": "Level Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S06AB": {
 			"desc": "Inhibit Timer",
-			"module": ""
+			"module": [""]
 		},
 		"S06AC": {
 			"desc": "Multiplex Interface Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S06AE": {
 			"desc": "Fix Strobe EF",
-			"module": ""
+			"module": [""]
 		},
 		"S06AK": {
 			"desc": "Transmission Line Receiver",
-			"module": ""
+			"module": ["361427"]
 		},
 		"S06AN": {
 			"desc": "Transmission Line Receiver W LD",
-			"module": ""
+			"module": ["361427"]
 		},
 		"S06AS": {
 			"desc": "Loop 2.0MC RD Bus Term",
-			"module": ""
+			"module": [""]
 		},
 		"S06AT": {
 			"desc": "Emitter Follower C13",
-			"module": ""
+			"module": [""]
 		},
 		"S06AV": {
 			"desc": "Resistor Terminators 100 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S06EA": {
 			"desc": "NPL Termination",
-			"module": ""
+			"module": [""]
 		},
 		"S06SA": {
 			"desc": "Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S06SC": {
 			"desc": "Data Line Receiver",
-			"module": ""
+			"module": [""]
 		},
 		"S06SD": {
 			"desc": "Multiplex Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S06SE": {
 			"desc": "Multiplex Line Driver 3",
-			"module": ""
+			"module": [""]
 		},
 		"S07AA": {
 			"desc": "Preamplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S07AC": {
 			"desc": "Sense Amplifier 1 Part A",
-			"module": ""
+			"module": [""]
 		},
 		"S07AD": {
 			"desc": "Sense Amplifier 1 Part B",
-			"module": ""
+			"module": [""]
 		},
 		"S07AE": {
 			"desc": "Sense Amplifier 2 Part A",
-			"module": ""
+			"module": [""]
 		},
 		"S07AF": {
 			"desc": "Sense Amplifier 2 Part B",
-			"module": ""
+			"module": [""]
 		},
 		"S07AQ": {
 			"desc": "Photocell Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S07AS": {
 			"desc": "Sense Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S07AT": {
 			"desc": "Sense Amp C13",
-			"module": ""
+			"module": [""]
 		},
 		"S07CF": {
 			"desc": "Sync Sense Amp",
-			"module": ""
+			"module": [""]
 		},
 		"S07EA": {
 			"desc": "Punch Detector",
-			"module": ""
+			"module": [""]
 		},
 		"S07ED": {
 			"desc": "Preamplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S07EE": {
 			"desc": "Preamplifier Output",
-			"module": ""
+			"module": [""]
 		},
 		"S07LA": {
 			"desc": "Photo Transistor Sense Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S07LB": {
 			"desc": "Photo Transistor EF",
-			"module": ""
+			"module": [""]
 		},
 		"S07SF": {
 			"desc": "Preamplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S07SI": {
 			"desc": "Cylinder Pulse Pre-Amp",
-			"module": ""
+			"module": [""]
 		},
 		"S07SJ": {
 			"desc": "Preamplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S07SK": {
 			"desc": "Low Level Solar Cell Amp",
-			"module": ""
+			"module": [""]
 		},
 		"S07SL": {
 			"desc": "Read Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S07SM": {
 			"desc": "Punch Check Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S07SN": {
 			"desc": "Write Erase Current Detect",
-			"module": ""
+			"module": [""]
 		},
 		"S07SO": {
 			"desc": "Preamplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S07SP": {
 			"desc": "Diff-Lin Amp",
-			"module": ""
+			"module": [""]
 		},
 		"S07SQ": {
 			"desc": "Head De-Select Ckt",
-			"module": ""
+			"module": [""]
 		},
 		"S07SS": {
 			"desc": "Index Primary Amp",
-			"module": ""
+			"module": [""]
 		},
 		"S07SU": {
 			"desc": "Cylinder Preamp",
-			"module": ""
+			"module": [""]
 		},
 		"S07SV": {
 			"desc": "Detent Preamp",
-			"module": ""
+			"module": [""]
 		},
 		"S07SW": {
 			"desc": "Index Preamp",
-			"module": ""
+			"module": [""]
 		},
 		"S07SX": {
 			"desc": "Read Amplifier 2",
-			"module": ""
+			"module": [""]
 		},
 		"S07SZ": {
 			"desc": "CE Test Amp",
-			"module": ""
+			"module": [""]
 		},
 		"S07TA": {
 			"desc": "Amplifier and Filter",
-			"module": ""
+			"module": [""]
 		},
 		"S07TB": {
 			"desc": "Amp-Differentiator",
-			"module": ""
+			"module": [""]
 		},
 		"S07TE": {
 			"desc": "Preamplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S07TF": {
 			"desc": "Tach Buffer and Filter",
-			"module": ""
+			"module": [""]
 		},
 		"S07TG": {
 			"desc": "Power Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S10AF": {
 			"desc": "25ma Relay Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S10AG": {
 			"desc": "Loop 2.0MC VFO Clamp Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S10AH": {
 			"desc": "37ma Relay Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S10SB": {
 			"desc": "Gate Control",
-			"module": ""
+			"module": [""]
 		},
 		"S10SC": {
 			"desc": "Inverter With Load",
-			"module": ""
+			"module": [""]
 		},
 		"S10SE": {
 			"desc": "AI With Load",
-			"module": ""
+			"module": [""]
 		},
 		"S10SH": {
 			"desc": "Emitter Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S10SI": {
 			"desc": "Inverter With Load",
-			"module": ""
+			"module": [""]
 		},
 		"S10SJ": {
 			"desc": "Inverter Power",
-			"module": ""
+			"module": [""]
 		},
 		"S10SK": {
 			"desc": "Inverter Unloaded",
-			"module": ""
+			"module": [""]
 		},
 		"S10SL": {
 			"desc": "Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"S10SM": {
 			"desc": "Intverter Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"S10SN": {
 			"desc": "Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"S10SO": {
 			"desc": "Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"S10SP": {
 			"desc": "Power Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"S10SQ": {
 			"desc": "Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"S11AE": {
 			"desc": "Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"S11AG": {
 			"desc": "Delay Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S11AL": {
 			"desc": "Data Concentrator RDU",
-			"module": ""
+			"module": [""]
 		},
 		"S11AM": {
 			"desc": "Oscillator Amp",
-			"module": ""
+			"module": [""]
 		},
 		"S11EA": {
 			"desc": "Delay Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S11SA": {
 			"desc": "Emitter Follower - V.C.",
-			"module": ""
+			"module": [""]
 		},
 		"S11SB": {
 			"desc": "Emitter Follower Head Load",
-			"module": ""
+			"module": [""]
 		},
 		"S15AE": {
 			"desc": "1.3 Amp Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15AG": {
 			"desc": "Driver for 1.3 Amp Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15AH": {
 			"desc": "100 ma Hammer Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15AI": {
 			"desc": "Y-Select",
-			"module": ""
+			"module": [""]
 		},
 		"S15AK": {
 			"desc": "300ma Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15AQ": {
 			"desc": "Prolay Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15AR": {
 			"desc": "Relay Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15AW": {
 			"desc": "1.7A Solenoid Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15AZ": {
 			"desc": "Data Concentrator 2 RDM",
-			"module": ""
+			"module": [""]
 		},
 		"S15CA": {
 			"desc": "650 ma Solenoid Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15EB": {
 			"desc": "400 ma Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15EC": {
 			"desc": "Driver for 2.2 A Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15ED": {
 			"desc": "Driver for 2.2 A Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15EF": {
 			"desc": "2.2 A Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15EJ": {
 			"desc": "R/W Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15LA": {
 			"desc": "Clutch Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15LB": {
 			"desc": "Brake Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15LC": {
 			"desc": "48V 0.1 Amp Relay Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15SA": {
 			"desc": "Inhibit Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15SF": {
 			"desc": "Strobe Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15SG": {
 			"desc": "Driver Gate Control",
-			"module": ""
+			"module": [""]
 		},
 		"S15SH": {
 			"desc": "1 Amp 8ms Solenoid Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15SL": {
 			"desc": "1 Amp PNP Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15SM": {
 			"desc": "1 Amp NPN Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15SN": {
 			"desc": "2.5 Amp Driver 1",
-			"module": ""
+			"module": [""]
 		},
 		"S15SO": {
 			"desc": ".5 Amp NPN Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15SP": {
 			"desc": "2.5 Amp Driver 2",
-			"module": ""
+			"module": [""]
 		},
 		"S15SQ": {
 			"desc": "High Current Switch 1",
-			"module": ""
+			"module": [""]
 		},
 		"S15ST": {
 			"desc": "Inhibit Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S15SV": {
 			"desc": "Write Driver Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"S15SX": {
 			"desc": "Power Transistor",
-			"module": ""
+			"module": [""]
 		},
 		"S15SY": {
 			"desc": "Power Transistor 257",
-			"module": ""
+			"module": [""]
 		},
 		"S15SZ": {
 			"desc": "Power Inverter Head Load",
-			"module": ""
+			"module": [""]
 		},
 		"S16AE": {
 			"desc": "Z Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S16AG": {
 			"desc": "Title R/W Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S16AH": {
 			"desc": "Core Driver-Inhibit",
-			"module": ""
+			"module": [""]
 		},
 		"S16AI": {
 			"desc": "X-Y Core Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S16AJ": {
 			"desc": "Current Switch-Core",
-			"module": ""
+			"module": [""]
 		},
 		"S16AK": {
 			"desc": "Switch Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S16AL": {
 			"desc": "Write Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S16AT": {
 			"desc": "Differentiator",
-			"module": ""
+			"module": [""]
 		},
 		"S16AU": {
 			"desc": "AC Coupled Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S16CH": {
 			"desc": "Read Amp Filter",
-			"module": ""
+			"module": [""]
 		},
 		"S16CJ": {
 			"desc": "Strobe Driver SP4",
-			"module": ""
+			"module": [""]
 		},
 		"S16CK": {
 			"desc": "Single Shot Control",
-			"module": ""
+			"module": [""]
 		},
 		"S16CL": {
 			"desc": "Array Driver C13",
-			"module": ""
+			"module": [""]
 		},
 		"S16CM": {
 			"desc": "Write Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S16EA": {
 			"desc": "Z-Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S16EB": {
 			"desc": "Terminator Gate",
-			"module": ""
+			"module": [""]
 		},
 		"S16EC": {
 			"desc": "Inhibit Timer",
-			"module": ""
+			"module": [""]
 		},
 		"S16SA": {
 			"desc": "X-Y Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S16SB": {
 			"desc": "X-Y Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S16SC": {
 			"desc": "Erase Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S16SD": {
 			"desc": "Write Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S16SE": {
 			"desc": "Write Current Source",
-			"module": ""
+			"module": [""]
 		},
 		"S16SG": {
 			"desc": "Write Head Select",
-			"module": ""
+			"module": [""]
 		},
 		"S20SA": {
 			"desc": "Trigger",
-			"module": ""
+			"module": [""]
 		},
 		"S21AA": {
 			"desc": "50-60 Pulse Per Second",
-			"module": ""
+			"module": [""]
 		},
 		"S21AF": {
 			"desc": "Pulse Former Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"S21AI": {
 			"desc": "Var. Freq. Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"S21SB": {
 			"desc": "Magnetic CB Shaper",
-			"module": ""
+			"module": [""]
 		},
 		"S21SC": {
 			"desc": "Precision Timer",
-			"module": ""
+			"module": [""]
 		},
 		"S21SD": {
 			"desc": "2 Second Timer",
-			"module": ""
+			"module": [""]
 		},
 		"S21SE": {
 			"desc": "Single Shot 60ns",
-			"module": ""
+			"module": [""]
 		},
 		"S21SF": {
 			"desc": "Single Shot 165 usec",
-			"module": ""
+			"module": [""]
 		},
 		"S21SG": {
 			"desc": "Single Shot 800 usec",
-			"module": ""
+			"module": [""]
 		},
 		"S22AA": {
 			"desc": "4 MC Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22AE": {
 			"desc": "5KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22AK": {
 			"desc": "500 KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22AL": {
 			"desc": "720KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22AS": {
 			"desc": "500KC Gated Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22AT": {
 			"desc": "700KC Gated Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22AZ": {
 			"desc": "5 Way PLO",
-			"module": ""
+			"module": [""]
 		},
 		"S22CH": {
 			"desc": "4 MC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22CI": {
 			"desc": "1.36 MC Crystal OSC",
-			"module": ""
+			"module": [""]
 		},
 		"S22CJ": {
 			"desc": "1.496 MC Crystal OSC",
-			"module": ""
+			"module": [""]
 		},
 		"S22CK": {
 			"desc": "3.2648KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22CL": {
 			"desc": "4.004KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22CM": {
 			"desc": "4.84KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22CN": {
 			"desc": "5.0063KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22CO": {
 			"desc": "SLT 5.9176KC Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22CP": {
 			"desc": "1.460 MCS Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22CU": {
 			"desc": "Crystal Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22CV": {
 			"desc": "4.0 MC Crystal Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22CW": {
 			"desc": "3.3KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22CX": {
 			"desc": "4.4KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22DE": {
 			"desc": "2.0KC Crystal Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22LA": {
 			"desc": "4.26KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22LB": {
 			"desc": "5.824KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22LC": {
 			"desc": "3.64KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22LE": {
 			"desc": "6.4KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22LF": {
 			"desc": "4.8KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22LG": {
 			"desc": "7.04KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22LH": {
 			"desc": "9.6KC XTAL Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22SA": {
 			"desc": "185KC Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S22SC": {
 			"desc": "400 CPS Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"S25AA": {
 			"desc": "Z Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"S25AB": {
 			"desc": "Gate Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"S25AC": {
 			"desc": "Reference Voltage",
-			"module": ""
+			"module": [""]
 		},
 		"S25AD": {
 			"desc": "Reference Voltage",
-			"module": ""
+			"module": [""]
 		},
 		"S25AE": {
 			"desc": "RW Driver Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"S25AF": {
 			"desc": "Loop 2.0MC Amp-Limiter",
-			"module": ""
+			"module": [""]
 		},
 		"S25AH": {
 			"desc": "9V Regulator",
-			"module": ""
+			"module": [""]
 		},
 		"S25AI": {
 			"desc": "Regulator 9V",
-			"module": ""
+			"module": [""]
 		},
 		"S25AJ": {
 			"desc": "13V Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"S25AK": {
 			"desc": "Voltage Regulator C13",
-			"module": ""
+			"module": [""]
 		},
 		"S25AL": {
 			"desc": "Voltage Regulator",
-			"module": ""
+			"module": [""]
 		},
 		"S25AM": {
 			"desc": "Voltage Clamp +0.125 V DC",
-			"module": ""
+			"module": [""]
 		},
 		"S25AT": {
 			"desc": "Clamp Diodes +3V",
-			"module": ""
+			"module": [""]
 		},
 		"S25CF": {
 			"desc": "Single Shot Ref",
-			"module": ""
+			"module": [""]
 		},
 		"S25EA": {
 			"desc": "Voltage Divider",
-			"module": ""
+			"module": [""]
 		},
 		"S25EC": {
 			"desc": "+12 CCROS Driver Supply",
-			"module": ""
+			"module": [""]
 		},
 		"S25EB": {
 			"desc": "Capacitor Coupling Network",
-			"module": ""
+			"module": [""]
 		},
 		"S25EE": {
 			"desc": "Diode",
-			"module": ""
+			"module": [""]
 		},
 		"S25EF": {
 			"desc": "R/W Driver Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"S25LA": {
 			"desc": "Positive Transition Detector",
-			"module": ""
+			"module": [""]
 		},
 		"S25SA": {
 			"desc": "Voltage Set for SAR",
-			"module": ""
+			"module": [""]
 		},
 		"S25SB": {
 			"desc": "Reference Temperature Level",
-			"module": ""
+			"module": [""]
 		},
 		"S25SD": {
 			"desc": "Driver Control",
-			"module": ""
+			"module": [""]
 		},
 		"S25SE": {
 			"desc": "Diode Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"S25SF": {
 			"desc": "Current Source",
-			"module": ""
+			"module": [""]
 		},
 		"S25SG": {
 			"desc": "Power Regulator 20V",
-			"module": ""
+			"module": [""]
 		},
 		"S25SH": {
 			"desc": "Voltage Reference 50mV",
-			"module": ""
+			"module": [""]
 		},
 		"S25SI": {
 			"desc": "Voltage Reference 5V",
-			"module": ""
+			"module": [""]
 		},
 		"S25SL": {
 			"desc": "Voltage Regulator",
-			"module": ""
+			"module": [""]
 		},
 		"S25SM": {
 			"desc": "Power Regulator 20V",
-			"module": ""
+			"module": [""]
 		},
 		"S25SN": {
 			"desc": "Level Setter",
-			"module": ""
+			"module": [""]
 		},
 		"S25SO": {
 			"desc": "Over Driven Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S25SP": {
 			"desc": "Voltage Regulation 36 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S25SQ": {
 			"desc": "Rectifier",
-			"module": ""
+			"module": [""]
 		},
 		"S32AB": {
 			"desc": "Gate",
-			"module": ""
+			"module": [""]
 		},
 		"S32AC": {
 			"desc": "Terminator Gate",
-			"module": ""
+			"module": [""]
 		},
 		"S32AE": {
 			"desc": "Gate",
-			"module": ""
+			"module": [""]
 		},
 		"S32AF": {
 			"desc": "Loop 2.0MC LWR Gate",
-			"module": ""
+			"module": [""]
 		},
 		"S32AG": {
 			"desc": "Loop 2.0MC Linear Gate",
-			"module": ""
+			"module": [""]
 		},
 		"S32EB": {
 			"desc": "Gate Transistors With Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"S32EC": {
 			"desc": "Gate Transistors With Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"S40AB": {
 			"desc": "Sector Switch",
-			"module": ""
+			"module": [""]
 		},
 		"S40AC": {
 			"desc": "Speed Detector",
-			"module": ""
+			"module": [""]
 		},
 		"S40AD": {
 			"desc": "Index Generator",
-			"module": ""
+			"module": [""]
 		},
 		"S40AG": {
 			"desc": "Loop 2.0MC Ref Clock Gen",
-			"module": ""
+			"module": [""]
 		},
 		"S40AJ": {
 			"desc": "Loop 2.0MC Peak Pulser",
-			"module": ""
+			"module": [""]
 		},
 		"S40AM": {
 			"desc": "Loop 2.0MC Squelch Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S40AO": {
 			"desc": "Frequency Detector Disc Speed Det",
-			"module": ""
+			"module": [""]
 		},
 		"S40EA": {
 			"desc": "Switch Network",
-			"module": ""
+			"module": [""]
 		},
 		"S40EB": {
 			"desc": "Temp Sensing Network",
-			"module": ""
+			"module": [""]
 		},
 		"S40SA": {
 			"desc": "Power Supply 28V",
-			"module": ""
+			"module": [""]
 		},
 		"S40SB": {
 			"desc": "Power Supply 28V",
-			"module": ""
+			"module": [""]
 		},
 		"S40SD": {
 			"desc": "Sense Level Voltage",
-			"module": ""
+			"module": [""]
 		},
 		"S40SE": {
 			"desc": "Ref Voltage",
-			"module": ""
+			"module": [""]
 		},
 		"S40SF": {
 			"desc": "+4V Special Voltage",
-			"module": ""
+			"module": [""]
 		},
 		"S40SH": {
 			"desc": "Level Setting",
-			"module": ""
+			"module": [""]
 		},
 		"S40SI": {
 			"desc": "Power Supply Safety",
-			"module": ""
+			"module": [""]
 		},
 		"S40SJ": {
 			"desc": "Null Bias",
-			"module": ""
+			"module": [""]
 		},
 		"S40SK": {
 			"desc": "Variable Current Source",
-			"module": ""
+			"module": [""]
 		},
 		"S40SL": {
 			"desc": "DC Safety",
-			"module": ""
+			"module": [""]
 		},
 		"S40SM": {
 			"desc": "AC Safety",
-			"module": ""
+			"module": [""]
 		},
 		"S40SO": {
 			"desc": "Voltage to Frequency Converter",
-			"module": ""
+			"module": [""]
 		},
 		"S40SP": {
 			"desc": "Level Indicator Minus",
-			"module": ""
+			"module": [""]
 		},
 		"S40SQ": {
 			"desc": "Level Indicator Plus",
-			"module": ""
+			"module": [""]
 		},
 		"S40SR": {
 			"desc": "Detector Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S40SS": {
 			"desc": "Single BRK Func Generator",
-			"module": ""
+			"module": [""]
 		},
 		"S40ST": {
 			"desc": "Fail Safe Blocking Valve Det",
-			"module": ""
+			"module": [""]
 		},
 		"S40SV": {
 			"desc": "Reference Voltage",
-			"module": ""
+			"module": [""]
 		},
 		"S40SW": {
 			"desc": "Zero S Detector",
-			"module": ""
+			"module": [""]
 		},
 		"S40SX": {
 			"desc": "Gap Sensor",
-			"module": ""
+			"module": [""]
 		},
 		"S40SY": {
 			"desc": "Detector",
-			"module": ""
+			"module": [""]
 		},
 		"S40SZ": {
 			"desc": "Ramp Generator",
-			"module": ""
+			"module": [""]
 		},
 		"S40TA": {
 			"desc": "Cap Sensor",
-			"module": ""
+			"module": [""]
 		},
 		"S40TB": {
 			"desc": "Test Reference Circuit",
-			"module": ""
+			"module": [""]
 		},
 		"S40TE": {
 			"desc": "0.45 Amp Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S40TF": {
 			"desc": "Balance Network",
-			"module": ""
+			"module": [""]
 		},
 		"S40TG": {
 			"desc": "Level Detector",
-			"module": ""
+			"module": [""]
 		},
 		"S40TH": {
 			"desc": "Voice Coil Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"S40TL": {
 			"desc": "Detector Circuit",
-			"module": ""
+			"module": [""]
 		},
 		"S40TM": {
 			"desc": "Write Select",
-			"module": ""
+			"module": [""]
 		},
 		"S40TN": {
 			"desc": "A C Unsafe",
-			"module": ""
+			"module": [""]
 		},
 		"S40TO": {
 			"desc": "Volt to High Freq Conv",
-			"module": ""
+			"module": [""]
 		},
 		"S40TP": {
 			"desc": "Zero S Detector (0.438 MBS)",
-			"module": ""
+			"module": [""]
 		},
 		"S40TQ": {
 			"desc": "Gap Sensor (0.438 MBS)",
-			"module": ""
+			"module": [""]
 		},
 		"S40TR": {
 			"desc": "Detector (0.438 MBS)",
-			"module": ""
+			"module": [""]
 		},
 		"S40TS": {
 			"desc": "Ramp Generator (0.438 MBS)",
-			"module": ""
+			"module": [""]
 		},
 		"S40TW": {
 			"desc": "Write Safety Latch",
-			"module": ""
+			"module": [""]
 		},
 		"S40TX": {
 			"desc": "Schmidt Trigger",
-			"module": ""
+			"module": [""]
 		},
 		"S40TY": {
 			"desc": "Transducer Detector",
-			"module": ""
+			"module": [""]
 		},
 		"S40TZ": {
 			"desc": "Level Detector",
-			"module": ""
+			"module": [""]
 		},
 		"S45AB": {
 			"desc": "5 to 25 ns Delay Line",
-			"module": ""
+			"module": [""]
 		},
 		"S45AC": {
 			"desc": "Tapped Delay Line",
-			"module": ""
+			"module": [""]
 		},
 		"S45AD": {
 			"desc": "5-125 ns Delay Line",
-			"module": ""
+			"module": [""]
 		},
 		"S45AE": {
 			"desc": "Delay Line Terminator W/O-L",
-			"module": ""
+			"module": [""]
 		},
 		"S45AH": {
 			"desc": "Elapsed Time Meter Display",
-			"module": ""
+			"module": [""]
 		},
 		"S45AK": {
 			"desc": "Delay Line 0-125",
-			"module": ""
+			"module": [""]
 		},
 		"S45AN": {
 			"desc": "Variable Delay .2 sec to 2.0 sec",
-			"module": ""
+			"module": [""]
 		},
 		"S45EA": {
 			"desc": "350 ns Delay Line",
-			"module": ""
+			"module": [""]
 		},
 		"S45EB": {
 			"desc": "3 to 8.6 Second Time Out",
-			"module": ""
+			"module": [""]
 		},
 		"S45EC": {
 			"desc": "Variable Time Delay 5-125ns",
-			"module": ""
+			"module": [""]
 		},
 		"S45SB": {
 			"desc": "500 ns Delay Line",
-			"module": ""
+			"module": [""]
 		},
 		"S45SC": {
 			"desc": "Delay Line 1ms",
-			"module": ""
+			"module": [""]
 		},
 		"S45SD": {
 			"desc": "Delay 90 sec",
-			"module": ""
+			"module": [""]
 		},
 		"S55AA": {
 			"desc": "40 ma Indicator Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S55AD": {
 			"desc": "15 ma Indicator Network",
-			"module": ""
+			"module": [""]
 		},
 		"S55AH": {
 			"desc": "Lamp Driver-ID 2",
-			"module": ""
+			"module": [""]
 		},
 		"S55EA": {
 			"desc": "40 ma Lamp Resistor Network",
-			"module": ""
+			"module": [""]
 		},
 		"S55EB": {
 			"desc": "40 ma Indicator Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S55EG": {
 			"desc": "SCR Signal Entry Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S55EH": {
 			"desc": "SCR Indicator Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S55SB": {
 			"desc": "40 ma Indicator Network",
-			"module": ""
+			"module": [""]
 		},
 		"S55SC": {
 			"desc": "250 ma Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S55SD": {
 			"desc": "Lamp Driver",
-			"module": ""
+			"module": [""]
 		},
 		"S60AB": {
 			"desc": "CAM Integrator",
-			"module": ""
+			"module": [""]
 		},
 		"S60AC": {
 			"desc": "Capacitor Network",
-			"module": ""
+			"module": [""]
 		},
 		"S60AH": {
 			"desc": "Single Shot Filter",
-			"module": ""
+			"module": [""]
 		},
 		"S60AR": {
 			"desc": "Integrator",
-			"module": ""
+			"module": [""]
 		},
 		"S60BA": {
 			"desc": "Jumper Card",
-			"module": ""
+			"module": [""]
 		},
 		"S60EA": {
 			"desc": "Filter 25KC",
-			"module": ""
+			"module": [""]
 		},
 		"S60EC": {
 			"desc": "Tungston Contact Network",
-			"module": ""
+			"module": [""]
 		},
 		"S60FE": {
 			"desc": "Driver Filter",
-			"module": ""
+			"module": [""]
 		},
 		"S60SA": {
 			"desc": "Resistor Emitter Load",
-			"module": ""
+			"module": [""]
 		},
 		"S60SB": {
 			"desc": "Compensation Network",
-			"module": ""
+			"module": [""]
 		},
 		"S60SC": {
 			"desc": "Disk Speed Detector",
-			"module": ""
+			"module": [""]
 		},
 		"S60SD": {
 			"desc": "Decoupling Capacitors",
-			"module": ""
+			"module": [""]
 		},
 		"S60SE": {
 			"desc": "Driver Filter",
-			"module": ""
+			"module": [""]
 		},
 		"S60SF": {
 			"desc": "Line Filter",
-			"module": ""
+			"module": [""]
 		},
 		"S60SG": {
 			"desc": "Filter",
-			"module": ""
+			"module": [""]
 		},
 		"S60SH": {
 			"desc": "Integrator 07 Percent Speed",
-			"module": ""
+			"module": [""]
 		},
 		"S60SI": {
 			"desc": "Integrator Less Than 90 Percent Speed",
-			"module": ""
+			"module": [""]
 		},
 		"S61AD": {
 			"desc": "Multiplex Terminating Network",
-			"module": ""
+			"module": [""]
 		},
 		"S61AF": {
 			"desc": "Jumper",
-			"module": ""
+			"module": [""]
 		},
 		"S61AJ": {
 			"desc": "Standard Interface Terminator",
-			"module": ""
+			"module": [""]
 		},
 		"S61AM": {
 			"desc": "Discrete Capacitor",
-			"module": ""
+			"module": [""]
 		},
 		"S61AN": {
 			"desc": "2.7K Resistor 1/4 W",
-			"module": ""
+			"module": [""]
 		},
 		"S61AO": {
 			"desc": "Transmission Line Receiver",
-			"module": ""
+			"module": [""]
 		},
 		"S61AP": {
 			"desc": "Type 6V Diode",
-			"module": ""
+			"module": [""]
 		},
 		"S61AR": {
 			"desc": "Terminating Resistor-100 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61AU": {
 			"desc": "Integrator",
-			"module": ""
+			"module": [""]
 		},
 		"S61AX": {
 			"desc": "39K Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61AY": {
 			"desc": "Pluggable Switch",
-			"module": ""
+			"module": [""]
 		},
 		"S61AZ": {
 			"desc": "Reed Relay Supression",
-			"module": ""
+			"module": [""]
 		},
 		"S61BE": {
 			"desc": "Jumper",
-			"module": ""
+			"module": [""]
 		},
 		"S61BG": {
 			"desc": "200 Ohm Resistor to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"S61CA": {
 			"desc": "200 Ohm Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61CC": {
 			"desc": "220 Ohm Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61CG": {
 			"desc": "Thermistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61CH": {
 			"desc": "Potentiometer",
-			"module": ""
+			"module": [""]
 		},
 		"S61CM": {
 			"desc": "DEC Capacitor +3V",
-			"module": ""
+			"module": [""]
 		},
 		"S61CN": {
 			"desc": "DEC Capacitor -3V",
-			"module": ""
+			"module": [""]
 		},
 		"S61CO": {
 			"desc": "DEC Capacitor +66V",
-			"module": ""
+			"module": [""]
 		},
 		"S61CP": {
 			"desc": "Decoupling Capacitor to +12V",
-			"module": ""
+			"module": [""]
 		},
 		"S61CQ": {
 			"desc": "DEC Capacitor -12V",
-			"module": ""
+			"module": [""]
 		},
 		"S61CR": {
 			"desc": "Isolating Resistor-1D2",
-			"module": ""
+			"module": [""]
 		},
 		"S61CS": {
 			"desc": "200 Ohm Resistor to +6V",
-			"module": ""
+			"module": [""]
 		},
 		"S61CT": {
 			"desc": "Delay Capacitor",
-			"module": ""
+			"module": [""]
 		},
 		"S61CU": {
 			"desc": "Special DN Lvl IND Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61CW": {
 			"desc": "Type AM Diode to -12V",
-			"module": ""
+			"module": [""]
 		},
 		"S61CX": {
 			"desc": "22 Meg Ohm Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61CY": {
 			"desc": "Thermoswitch",
-			"module": ""
+			"module": [""]
 		},
 		"S61CZ": {
 			"desc": "330 Ohm Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61DA": {
 			"desc": "AC Input",
-			"module": ""
+			"module": [""]
 		},
 		"S61DB": {
 			"desc": "36 Ohm Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61DC": {
 			"desc": "Terminator C13",
-			"module": ""
+			"module": [""]
 		},
 		"S61DD": {
 			"desc": "5 uF Capacitor NP",
-			"module": ""
+			"module": [""]
 		},
 		"S61DE": {
 			"desc": "10 uF Coupling Capacitor",
-			"module": ""
+			"module": [""]
 		},
 		"S61DF": {
 			"desc": "2.0 KC Crystal",
-			"module": ""
+			"module": [""]
 		},
 		"S61DG": {
 			"desc": "Decoupling Capacitor to Ground",
-			"module": ""
+			"module": [""]
 		},
 		"S61DH": {
 			"desc": "1.0 uH Choke",
-			"module": ""
+			"module": [""]
 		},
 		"S61DI": {
 			"desc": "ALS Diode",
-			"module": ""
+			"module": [""]
 		},
 		"S61DJ": {
 			"desc": "Capacitor 680pF 5 Percent",
-			"module": ""
+			"module": [""]
 		},
 		"S61DK": {
 			"desc": "3K Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61DL": {
 			"desc": "Magnetic Head",
-			"module": ""
+			"module": [""]
 		},
 		"S61DM": {
 			"desc": "Solar Cell",
-			"module": ""
+			"module": [""]
 		},
 		"S61DN": {
 			"desc": ".1 uFD Delay Capacitor",
-			"module": ""
+			"module": [""]
 		},
 		"S61DQ": {
 			"desc": "AM Diode",
-			"module": ""
+			"module": [""]
 		},
 		"S61DR": {
 			"desc": "Resistor 200 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61DT": {
 			"desc": "Capacitor .02 uF",
-			"module": ""
+			"module": [""]
 		},
 		"S61DW": {
 			"desc": "6.8 uFD Decoupling Capacitor",
-			"module": ""
+			"module": [""]
 		},
 		"S61DX": {
 			"desc": "Load Resistor 95 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61EA": {
 			"desc": "Capacitors I",
-			"module": ""
+			"module": [""]
 		},
 		"S61EB": {
 			"desc": "Capacitors II",
-			"module": ""
+			"module": [""]
 		},
 		"S61EE": {
 			"desc": "Pluggable Jumpers",
-			"module": ""
+			"module": [""]
 		},
 		"S61EK": {
 			"desc": "Load Resistor -52 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61EM": {
 			"desc": "100 Ohm Resistor Load to GND",
-			"module": ""
+			"module": [""]
 		},
 		"S61EQ": {
 			"desc": "1 K Resistor to -3V",
-			"module": ""
+			"module": [""]
 		},
 		"S61IG": {
 			"desc": "95 Ohm Terminating Resistor to GND",
-			"module": ""
+			"module": [""]
 		},
 		"S61II": {
 			"desc": "DEC Capacitor +12V",
-			"module": ""
+			"module": [""]
 		},
 		"S61LA": {
 			"desc": "1 K Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61SO": {
 			"desc": "Diode Matrix",
-			"module": ""
+			"module": [""]
 		},
 		"S61SA": {
 			"desc": "Vernier Resistance",
-			"module": ""
+			"module": [""]
 		},
 		"S61SC": {
 			"desc": "Resistor 14.3 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61SE": {
 			"desc": "5.1 Ohm Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61SF": {
 			"desc": "10 Ohm Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61SG": {
 			"desc": "Power Sequence Block",
-			"module": ""
+			"module": [""]
 		},
 		"S61SH": {
 			"desc": "Emitter Load",
-			"module": ""
+			"module": [""]
 		},
 		"S61SI": {
 			"desc": "Diode Supression",
-			"module": ""
+			"module": [""]
 		},
 		"S61SJ": {
 			"desc": "18 Ohm Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61SK": {
 			"desc": "Common Bar Jumper",
-			"module": ""
+			"module": [""]
 		},
 		"S61SL": {
 			"desc": "Read-Write Selection Matrix",
-			"module": ""
+			"module": [""]
 		},
 		"S61SM": {
 			"desc": "Program Cap Hub",
-			"module": ""
+			"module": [""]
 		},
 		"S61SP": {
 			"desc": "Diode Matrix",
-			"module": ""
+			"module": [""]
 		},
 		"S61SQ": {
 			"desc": "36 Ohm 1 Watt Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61SR": {
 			"desc": "Diode Supression",
-			"module": ""
+			"module": [""]
 		},
 		"S61ST": {
 			"desc": "Resistor 2.49 K",
-			"module": ""
+			"module": [""]
 		},
 		"S61SU": {
 			"desc": "Track Divider 2",
-			"module": ""
+			"module": [""]
 		},
 		"S61SW": {
 			"desc": "Resistor Safety",
-			"module": ""
+			"module": [""]
 		},
 		"S61SX": {
 			"desc": "Current Feeding",
-			"module": ""
+			"module": [""]
 		},
 		"S61SZ": {
 			"desc": "Resistor 21 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61TA": {
 			"desc": "AC Terminator",
-			"module": ""
+			"module": [""]
 		},
 		"S61TB": {
 			"desc": "Decoupling Capacitor",
-			"module": ""
+			"module": [""]
 		},
 		"S61TC": {
 			"desc": "Diode Matrix",
-			"module": ""
+			"module": [""]
 		},
 		"S61TD": {
 			"desc": "Voltage Regulator",
-			"module": ""
+			"module": [""]
 		},
 		"S61TE": {
 			"desc": "1.8 K Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61TF": {
 			"desc": "Resistor-100 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61TG": {
 			"desc": "2.4 K Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61TH": {
 			"desc": "Resistor 1100 Ohm 1/2W",
-			"module": ""
+			"module": [""]
 		},
 		"S61TJ": {
 			"desc": "Resistor - 1.5K 1/2W 5 Percent",
-			"module": ""
+			"module": [""]
 		},
 		"S61TK": {
 			"desc": "2K Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"S61TL": {
 			"desc": "Head Plug-13RK",
-			"module": ""
+			"module": [""]
 		},
 		"S61TM": {
 			"desc": "Resistor 220 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61TN": {
 			"desc": "Resistor 62 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61TO": {
 			"desc": "Resistor 130 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61TP": {
 			"desc": "Resistor 2 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61TQ": {
 			"desc": "Diode Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"S61TR": {
 			"desc": "Resistor 25 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61TS": {
 			"desc": "Resistor 1 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61TT": {
 			"desc": "Resistor 825 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"S61TU": {
 			"desc": "Diode Supression",
-			"module": ""
+			"module": [""]
 		},
 		"S61TV": {
 			"desc": "Resistor 1 K",
-			"module": ""
+			"module": [""]
 		},
 		"S61UF": {
 			"desc": "Diode AAS",
-			"module": ""
+			"module": [""]
 		},
 		"S63AA": {
 			"desc": "4-Position Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63AB": {
 			"desc": "6-Position Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63AC": {
 			"desc": "Coil 1-Pole Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63AD": {
 			"desc": "Coil 6-Pole Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63AE": {
 			"desc": "Relay Point Reed",
-			"module": ""
+			"module": [""]
 		},
 		"S63AK": {
 			"desc": "Reed Relay Coil or 2N/O.2N/C Assm",
-			"module": ""
+			"module": [""]
 		},
 		"S63AL": {
 			"desc": "Reed Relay 2N/O 2N/C",
-			"module": ""
+			"module": [""]
 		},
 		"S63AM": {
 			"desc": "Reed Relay Hold Winding",
-			"module": ""
+			"module": [""]
 		},
 		"S63AN": {
 			"desc": "Reed Relay Pick Winding",
-			"module": ""
+			"module": [""]
 		},
 		"S63AQ": {
 			"desc": "6 N/O P and H Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63AS": {
 			"desc": "4 N/O P and H Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63AU": {
 			"desc": "1 Position Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63AW": {
 			"desc": "Telegraph Relay - Receive",
-			"module": ""
+			"module": [""]
 		},
 		"S63AY": {
 			"desc": "Telegraph Relay - Transmit",
-			"module": ""
+			"module": [""]
 		},
 		"S63EA": {
 			"desc": "Reed Point-Normally Open",
-			"module": ""
+			"module": [""]
 		},
 		"S63EB": {
 			"desc": "Reed Point-Normally Closed",
-			"module": ""
+			"module": [""]
 		},
 		"S63EC": {
 			"desc": "Reed Relay Assm 2N/O 2N/C",
-			"module": ""
+			"module": [""]
 		},
 		"S63ED": {
 			"desc": "Reed Relay Assm 6V",
-			"module": ""
+			"module": [""]
 		},
 		"S63EF": {
 			"desc": "6V Coil for Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63EG": {
 			"desc": "Reed Point-Normally Open",
-			"module": ""
+			"module": [""]
 		},
 		"S63EH": {
 			"desc": "Reed Point-Normally Closed",
-			"module": ""
+			"module": [""]
 		},
 		"S63SA": {
 			"desc": "Coil-2 Pole Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63SB": {
 			"desc": "Coil-2 Pole Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63SC": {
 			"desc": "Coil-2 Pole Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63SD": {
 			"desc": "48V Reed Relay Coil",
-			"module": ""
+			"module": [""]
 		},
 		"S63SE": {
 			"desc": "2 Point - Reed - Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63SF": {
 			"desc": "4 Point - Reed - Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63SG": {
 			"desc": "1-Point Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"S63SH": {
 			"desc": "4 Point Relay",
-			"module": ""
+			"module": [""]
 		},
 		"T03AA": {
 			"desc": "AND Invert No Load",
-			"module": ""
+			"module": ["361451"]
 		},
 		"T03AB": {
 			"desc": "AND Invert-750 Ohm Load",
-			"module": ""
+			"module": ["361451"]
 		},
 		"T03AC": {
 			"desc": "AND",
-			"module": ""
+			"module": ["361453","361455","361456"]
 		},
 		"T03AD": {
 			"desc": "OR Invert-No Load",
-			"module": ""
+			"module": ["361453"]
 		},
 		"T03AE": {
 			"desc": "OR Invert-750 Ohm Load",
-			"module": ""
+			"module": ["361453"]
 		},
 		"T03AF": {
 			"desc": "AND Power Invert No Load",
-			"module": ""
+			"module": ["361473"]
 		},
 		"T03AI": {
 			"desc": "Exclusive OR W/Load",
-			"module": ""
+			"module": ["361477"]
 		},
 		"T03AJ": {
 			"desc": "AND-PWR Invert 300 Ohm Load",
-			"module": ""
+			"module": ["361473"]
 		},
 		"T03AK": {
 			"desc": "Exclusive OR Latch",
-			"module": ""
+			"module": ["361486"]
 		},
 		"T03AL": {
 			"desc": "8 Way Exclusive OR",
-			"module": ""
+			"module": [""]
 		},
 		"T03AM": {
 			"desc": "4 Way Exclusive OR",
-			"module": ""
+			"module": [""]
 		},
 		"T03AN": {
 			"desc": "7 Way API-No Load",
-			"module": ""
+			"module": ["361473"]
 		},
 		"T03AO": {
 			"desc": "7 Way API-300 Ohm Load",
-			"module": ""
+			"module": ["361473"]
 		},
 		"T03AP": {
 			"desc": "Exclusive OR-No Load",
-			"module": ""
+			"module": ["361477"]
 		},
 		"T03AQ": {
 			"desc": "AND for Multiplex Interface Drive",
-			"module": ""
+			"module": [""]
 		},
 		"T03AR": {
 			"desc": "Multiplex Interface Drive",
-			"module": ""
+			"module": [""]
 		},
 		"T03AS": {
 			"desc": "AND-1K",
-			"module": ""
+			"module": [""]
 		},
 		"T03AX": {
 			"desc": "AND Ext Multiplex Interface Dr",
-			"module": ""
+			"module": [""]
 		},
 		"T03BF": {
 			"desc": "Minus OR Invert Unloaded",
-			"module": ""
+			"module": [""]
 		},
 		"T03BN": {
 			"desc": "Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T03BO": {
 			"desc": "Minus OR Invert Loaded",
-			"module": ""
+			"module": [""]
 		},
 		"T03BP": {
 			"desc": "Decoder",
-			"module": ""
+			"module": [""]
 		},
 		"T03BQ": {
 			"desc": "Sense Latch AND",
-			"module": ""
+			"module": [""]
 		},
 		"T03BR": {
 			"desc": "Sense Strobe AND",
-			"module": ""
+			"module": [""]
 		},
 		"T03BS": {
 			"desc": "Sense Ampl AND",
-			"module": ""
+			"module": [""]
 		},
 		"T03BT": {
 			"desc": "Extended API Without Load",
-			"module": ""
+			"module": [""]
 		},
 		"T03BV": {
 			"desc": "Extended API",
-			"module": ""
+			"module": [""]
 		},
 		"T03BW": {
 			"desc": "Extended API 270 Ohm +6",
-			"module": ""
+			"module": [""]
 		},
 		"T03BX": {
 			"desc": "Selector",
-			"module": ""
+			"module": [""]
 		},
 		"T03BY": {
 			"desc": "Gate Decoder",
-			"module": ""
+			"module": [""]
 		},
 		"T03CC": {
 			"desc": "Y-Select Logic",
-			"module": ""
+			"module": [""]
 		},
 		"T03CD": {
 			"desc": "Y-Select 2",
-			"module": ""
+			"module": [""]
 		},
 		"T03CE": {
 			"desc": "AND Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T03CG": {
 			"desc": "AND for Sense Amp LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T03CI": {
 			"desc": "Positive for Diodes",
-			"module": ""
+			"module": [""]
 		},
 		"T03CK": {
 			"desc": "Title Write Drivers",
-			"module": ""
+			"module": [""]
 		},
 		"T03CO": {
 			"desc": "Multiplex Receiver",
-			"module": ""
+			"module": [""]
 		},
 		"T03CP": {
 			"desc": "OR-Invert",
-			"module": ""
+			"module": [""]
 		},
 		"T03EF": {
 			"desc": "AND For API",
-			"module": ""
+			"module": [""]
 		},
 		"T03EH": {
 			"desc": "OR Invert No Load",
-			"module": ""
+			"module": [""]
 		},
 		"T03EI": {
 			"desc": "OR Invert With Load Combined Logic",
-			"module": ""
+			"module": [""]
 		},
 		"T03EL": {
 			"desc": "AND-OR Invert No Load",
-			"module": ""
+			"module": [""]
 		},
 		"T03EM": {
 			"desc": "AND-OR Invert With Load",
-			"module": ""
+			"module": [""]
 		},
 		"T03EN": {
 			"desc": "AND-for AI",
-			"module": ""
+			"module": [""]
 		},
 		"T03JB": {
 			"desc": "Sense Amplifier AND",
-			"module": ""
+			"module": [""]
 		},
 		"T03JC": {
 			"desc": "AND-Latch Control",
-			"module": ""
+			"module": [""]
 		},
 		"T03JD": {
 			"desc": "AND",
-			"module": ""
+			"module": [""]
 		},
 		"T03JE": {
 			"desc": "AND",
-			"module": ""
+			"module": [""]
 		},
 		"T03JF": {
 			"desc": "OR",
-			"module": ""
+			"module": [""]
 		},
 		"T03SA": {
 			"desc": "AND",
-			"module": ""
+			"module": [""]
 		},
 		"T03SF": {
 			"desc": "OR Invert",
-			"module": ""
+			"module": [""]
 		},
 		"T03SG": {
 			"desc": "AND Invert",
-			"module": ""
+			"module": [""]
 		},
 		"T03SH": {
 			"desc": "OR Diodes",
-			"module": ""
+			"module": [""]
 		},
 		"T03SI": {
 			"desc": "AND Inverter With Load",
-			"module": ""
+			"module": [""]
 		},
 		"T03SJ": {
 			"desc": "API With Load",
-			"module": ""
+			"module": [""]
 		},
 		"T03SK": {
 			"desc": "Special OR Circuit",
-			"module": ""
+			"module": [""]
 		},
 		"T03SL": {
 			"desc": "AND Invert",
-			"module": ""
+			"module": [""]
 		},
 		"T03SN": {
 			"desc": "Positive AND With Delay",
-			"module": ""
+			"module": [""]
 		},
 		"T03SV": {
 			"desc": "Replaced by T03SI",
-			"module": ""
+			"module": [""]
 		},
 		"T03TB": {
 			"desc": "POSANDEL",
-			"module": ""
+			"module": [""]
 		},
 		"T03TC": {
 			"desc": "AOI With Extend",
-			"module": ""
+			"module": [""]
 		},
 		"T03TD": {
 			"desc": "Minus AND",
-			"module": ""
+			"module": [""]
 		},
 		"T03TE": {
 			"desc": "AND Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T03TG": {
 			"desc": "Diode OR",
-			"module": ""
+			"module": [""]
 		},
 		"T03TH": {
 			"desc": "Step Mode OR",
-			"module": ""
+			"module": [""]
 		},
 		"T03TI": {
 			"desc": "Step Mode AND",
-			"module": ""
+			"module": [""]
 		},
 		"T03TJ": {
 			"desc": "Seperate Component AI",
-			"module": ""
+			"module": [""]
 		},
 		"T03TK": {
 			"desc": "Read Select",
-			"module": ""
+			"module": [""]
 		},
 		"T03TL": {
 			"desc": "OR Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"T03TM": {
 			"desc": "Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"T03VA": {
 			"desc": "AOI-Grouping-No Load",
-			"module": ""
+			"module": ["361453"]
 		},
 		"T03VB": {
 			"desc": "AOI-Grouping-W/Load",
-			"module": ""
+			"module": ["361453"]
 		},
 		"T03VC": {
 			"desc": "Multiplex Driver Grouping-No Load",
-			"module": ""
+			"module": [""]
 		},
 		"T05AA": {
 			"desc": "Invert Direct CPLD No Load",
-			"module": ""
+			"module": ["361454"]
 		},
 		"T05AB": {
 			"desc": "Inverter Driect CPLD (350 Ohm Load)",
-			"module": ""
+			"module": ["361454"]
 		},
 		"T05AF": {
 			"desc": "NPL Final Amp HI + LO Accept Drive",
-			"module": ""
+			"module": [""]
 		},
 		"T05AJ": {
 			"desc": "Terminating EIA to SLT Converter",
-			"module": ""
+			"module": [""]
 		},
 		"T05AL": {
 			"desc": "Translate Block",
-			"module": ""
+			"module": [""]
 		},
 		"T05AM": {
 			"desc": "Write Driver Check",
-			"module": ""
+			"module": [""]
 		},
 		"T05AO": {
 			"desc": "45 ma Transmission Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T05AP": {
 			"desc": "Interlock Circuit Terminator",
-			"module": ""
+			"module": [""]
 		},
 		"T05AQ": {
 			"desc": "Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"T05BG": {
 			"desc": "Delay Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T05BI": {
 			"desc": "Driver Strobe",
-			"module": ""
+			"module": [""]
 		},
 		"T05BJ": {
 			"desc": "Lamp Test CCT for Down Level ID",
-			"module": ""
+			"module": [""]
 		},
 		"T05BK": {
 			"desc": "Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T05BM": {
 			"desc": "Latch Stage I",
-			"module": ""
+			"module": [""]
 		},
 		"T05BN": {
 			"desc": "Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"T05BO": {
 			"desc": "Gate Invert",
-			"module": ""
+			"module": [""]
 		},
 		"T05EA": {
 			"desc": "Final Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T05SA": {
 			"desc": "Format X-Read Select",
-			"module": ""
+			"module": [""]
 		},
 		"T05SB": {
 			"desc": "Data X-Read Select",
-			"module": ""
+			"module": [""]
 		},
 		"T05SC": {
 			"desc": "Direct Coupled Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"T05SD": {
 			"desc": "Isolating Inverter Discrete",
-			"module": ""
+			"module": [""]
 		},
 		"T05SE": {
 			"desc": "Converter",
-			"module": ""
+			"module": [""]
 		},
 		"T05SG": {
 			"desc": "Magnetic CB Shaper",
-			"module": ""
+			"module": [""]
 		},
 		"T06AA": {
 			"desc": "Line Sense Amp LSA",
-			"module": ""
+			"module": ["361476"]
 		},
 		"T06AE": {
 			"desc": "Core-Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T06AG": {
 			"desc": "Multiplex Line Terminator",
-			"module": ""
+			"module": [""]
 		},
 		"T06AH": {
 			"desc": "Multiplex Interface Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T06AI": {
 			"desc": "SLT to EIA Convert Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T06AJ": {
 			"desc": "Direct Coupled Inverter Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T06AL": {
 			"desc": "STD Interface Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T06AM": {
 			"desc": "Gated Line Intrfc Term",
-			"module": ""
+			"module": [""]
 		},
 		"T06AN": {
 			"desc": "STD Interface Line Terminator",
-			"module": ""
+			"module": [""]
 		},
 		"T06AR": {
 			"desc": "High Power Driver - 100 Ohm Load",
-			"module": ""
+			"module": ["361475"]
 		},
 		"T06AY": {
 			"desc": "Phase Detector",
-			"module": ""
+			"module": [""]
 		},
 		"T06AZ": {
 			"desc": "Line Terminator and Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T06BC": {
 			"desc": "Line Sensing Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T06BD": {
 			"desc": "Delay Line Sensing Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T06CE": {
 			"desc": "Sense Amp Term C13",
-			"module": ""
+			"module": [""]
 		},
 		"T06CF": {
 			"desc": "Emitter Follower C13",
-			"module": ""
+			"module": [""]
 		},
 		"T06CG": {
 			"desc": "Line Repeater",
-			"module": ""
+			"module": [""]
 		},
 		"T06CH": {
 			"desc": "Line Terminator and Gate II",
-			"module": ""
+			"module": [""]
 		},
 		"T06CI": {
 			"desc": "Multiplex Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T06CJ": {
 			"desc": "Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T07AD": {
 			"desc": "NPL Final Amp Peak Detector",
-			"module": ""
+			"module": [""]
 		},
 		"T07AG": {
 			"desc": "C9 Sense Latch 2",
-			"module": ""
+			"module": [""]
 		},
 		"T07AH": {
 			"desc": "C9 Sense Amp 1",
-			"module": ""
+			"module": [""]
 		},
 		"T07AI": {
 			"desc": "Sense Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T07AJ": {
 			"desc": "Preamplifier and Filter",
-			"module": ""
+			"module": [""]
 		},
 		"T07AK": {
 			"desc": "Filter",
-			"module": ""
+			"module": [""]
 		},
 		"T07AS": {
 			"desc": "Sense Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T07AT": {
 			"desc": "NPL Final Amp Input Term",
-			"module": ""
+			"module": [""]
 		},
 		"T07AZ": {
 			"desc": "Magnetic Head Sense Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T07BB": {
 			"desc": "Paraphrase Amp",
-			"module": ""
+			"module": [""]
 		},
 		"T07BC": {
 			"desc": "Sense Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T07BD": {
 			"desc": "CCROS RHO Sense Ampliifer",
-			"module": ""
+			"module": [""]
 		},
 		"T07BE": {
 			"desc": "CR Sense Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T07CA": {
 			"desc": "Probe Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T07CB": {
 			"desc": "Probe Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T07CF": {
 			"desc": "Sense Amp",
-			"module": ""
+			"module": [""]
 		},
 		"T07CH": {
 			"desc": "Sense Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T07CK": {
 			"desc": "Sense Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T07CM": {
 			"desc": "Motion Integrator II",
-			"module": ""
+			"module": [""]
 		},
 		"T07CN": {
 			"desc": "Detection Amplifier 2",
-			"module": ""
+			"module": [""]
 		},
 		"T07SA": {
 			"desc": "Summing Amp Input",
-			"module": ""
+			"module": [""]
 		},
 		"T07SB": {
 			"desc": "Functional Generator Input",
-			"module": ""
+			"module": [""]
 		},
 		"T07SC": {
 			"desc": "Low Level Position Amp",
-			"module": ""
+			"module": [""]
 		},
 		"T07SD": {
 			"desc": "Low Level Velocity Amp",
-			"module": ""
+			"module": [""]
 		},
 		"T07SG": {
 			"desc": "Function Generator Output",
-			"module": ""
+			"module": [""]
 		},
 		"T07SH": {
 			"desc": "Inner Function Generator",
-			"module": ""
+			"module": [""]
 		},
 		"T07SI": {
 			"desc": "Velocity Arrival Buffer",
-			"module": ""
+			"module": [""]
 		},
 		"T07SJ": {
 			"desc": "Tachometer Buffer and Filter",
-			"module": ""
+			"module": [""]
 		},
 		"T07SK": {
 			"desc": "Complex Zero Input",
-			"module": ""
+			"module": [""]
 		},
 		"T07SL": {
 			"desc": "Position Arrival Buffer",
-			"module": ""
+			"module": [""]
 		},
 		"T07SM": {
 			"desc": "Class A Power Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T07SN": {
 			"desc": "2 Second Circuit Input",
-			"module": ""
+			"module": [""]
 		},
 		"T07SP": {
 			"desc": "Solar Cell Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T07SQ": {
 			"desc": "Cylinder Detector Circuit",
-			"module": ""
+			"module": [""]
 		},
 		"T07SR": {
 			"desc": "Index Detector Circuit",
-			"module": ""
+			"module": [""]
 		},
 		"T07SS": {
 			"desc": "Read Amplifier 1",
-			"module": ""
+			"module": [""]
 		},
 		"T07ST": {
 			"desc": "Write Amplifier 1",
-			"module": ""
+			"module": [""]
 		},
 		"T07SU": {
 			"desc": "Blocking Valve Det Input",
-			"module": ""
+			"module": [""]
 		},
 		"T07SW": {
 			"desc": "Detent Detector Circuit",
-			"module": ""
+			"module": [""]
 		},
 		"T07SX": {
 			"desc": "Punchcheck Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T10BB": {
 			"desc": "Sense Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T10BC": {
 			"desc": "Driver Supply",
-			"module": ""
+			"module": [""]
 		},
 		"T10BE": {
 			"desc": "Force Card Print Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"T10BF": {
 			"desc": "Latch Reset Driver 1",
-			"module": ""
+			"module": [""]
 		},
 		"T10BG": {
 			"desc": "Inverter Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T10BH": {
 			"desc": "Gated Inverted Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T10BI": {
 			"desc": "Latch Reset Driver 2",
-			"module": ""
+			"module": [""]
 		},
 		"T10EA": {
 			"desc": "Harper Gate Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T10SA": {
 			"desc": "Current Control",
-			"module": ""
+			"module": [""]
 		},
 		"T10SC": {
 			"desc": "Amplifier-Strobe Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T10SF": {
 			"desc": "Trigger Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T10SI": {
 			"desc": "Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"T10SL": {
 			"desc": "Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"T10SN": {
 			"desc": "Inverter-Clamped",
-			"module": ""
+			"module": [""]
 		},
 		"T10SP": {
 			"desc": "Integrator Switch",
-			"module": ""
+			"module": [""]
 		},
 		"T10SQ": {
 			"desc": "Inverter Spec",
-			"module": ""
+			"module": [""]
 		},
 		"T10SR": {
 			"desc": "Isolating Inv with Filter",
-			"module": ""
+			"module": [""]
 		},
 		"T10SS": {
 			"desc": "High Power Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"T11AB": {
 			"desc": "SA Gate Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T11BH": {
 			"desc": "Sense Strobe Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T11BI": {
 			"desc": "Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T11BJ": {
 			"desc": "Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T11BK": {
 			"desc": "Reset Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T11BL": {
 			"desc": "Gate Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T11BO": {
 			"desc": "Sense Amp Strobe Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T11BP": {
 			"desc": "Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T11BQ": {
 			"desc": "Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T11BR": {
 			"desc": "Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T11BS": {
 			"desc": "Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T11BT": {
 			"desc": "Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T11BU": {
 			"desc": "Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T11BW": {
 			"desc": "Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T11EA": {
 			"desc": "Stribe Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T11EC": {
 			"desc": "CCROS Decode Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T11ED": {
 			"desc": "CCROS Emitter Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T11EE": {
 			"desc": "CCROSS Gated Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T11SA": {
 			"desc": "AND Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T15AA": {
 			"desc": "High Power Driver - 175 Ohm Load",
-			"module": ""
+			"module": ["361475"]
 		},
 		"T15AE": {
 			"desc": "High Power Driver-No Load",
-			"module": ""
+			"module": ["361475"]
 		},
 		"T15AJ": {
 			"desc": "Solenoid Driver, 1.5A",
-			"module": ""
+			"module": [""]
 		},
 		"T15AM": {
 			"desc": "1 Pole Reed Relay Dr",
-			"module": ""
+			"module": [""]
 		},
 		"T15AN": {
 			"desc": "Reed Relay Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T15AO": {
 			"desc": "Strobe Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T15AQ": {
 			"desc": "XY Gate OR Inhibit Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T15AT": {
 			"desc": "4 Amp Driver NPL",
-			"module": ""
+			"module": [""]
 		},
 		"T15AY": {
 			"desc": "High Power Drive-Combined Logic",
-			"module": ""
+			"module": [""]
 		},
 		"T15AZ": {
 			"desc": "434 ma Relay Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T15BC": {
 			"desc": "Gate Strobe",
-			"module": ""
+			"module": [""]
 		},
 		"T15BD": {
 			"desc": "Up Level Indicator Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T15BE": {
 			"desc": "Sense Strobe Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T15BF": {
 			"desc": "Driver Supply Amp",
-			"module": ""
+			"module": [""]
 		},
 		"T15BG P": {
 			"desc": "Driver Supply Output",
-			"module": ""
+			"module": [""]
 		},
 		"T15BH P": {
 			"desc": "Sense Strobe Driver 2",
-			"module": ""
+			"module": [""]
 		},
 		"T15BI P": {
 			"desc": "Driver Supply Amp 2",
-			"module": ""
+			"module": [""]
 		},
 		"T15BJ E": {
 			"desc": "Driver Decoder",
-			"module": ""
+			"module": [""]
 		},
 		"T15BK P": {
 			"desc": "High Power Invert",
-			"module": ""
+			"module": [""]
 		},
 		"T15EF P": {
 			"desc": "Sonic Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T15SH P": {
 			"desc": "Bootstrap Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T15SJ P": {
 			"desc": "Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"T15SK P": {
 			"desc": "High Power",
-			"module": ""
+			"module": [""]
 		},
 		"T15SL P": {
 			"desc": "450 ma Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T15SN P": {
 			"desc": "2.5 Amp Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16AF P": {
 			"desc": "S9-Write Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16AH P": {
 			"desc": "S9-Read Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16AI P": {
 			"desc": "A Word Gate LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16AJ P": {
 			"desc": "Switch Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T16AK P": {
 			"desc": "A Group and Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16AL P": {
 			"desc": "Word Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T16AM E": {
 			"desc": "B Switch Gate-LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16AN P": {
 			"desc": "A B Group and LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16AO E": {
 			"desc": "A Word Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16AP P": {
 			"desc": "A Group and Converter LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16AQ P": {
 			"desc": "A Group Pulse Gen LCS",
-			"module": ""
+			"module": [""]
 		},
 		"T16AT P": {
 			"desc": "Write Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16AU P": {
 			"desc": "Write Safety",
-			"module": ""
+			"module": [""]
 		},
 		"T16AY E": {
 			"desc": "Strobe Driver LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16BB T": {
 			"desc": "Down Level Indicator Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16BC P": {
 			"desc": "Clock Line Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16CA P": {
 			"desc": "A Group Driver- LCS",
-			"module": ""
+			"module": [""]
 		},
 		"T16CB E": {
 			"desc": "A WD Gate Driver Load Resistor LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16CC E": {
 			"desc": "B WD Gate Driver Load Resistor LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16CF P": {
 			"desc": "A Switch Gate Driver- LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16CG P": {
 			"desc": "B Switch Gate Driver LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16CH P": {
 			"desc": "A Word Gate Driver-LCS",
-			"module": ""
+			"module": [""]
 		},
 		"T16CI P": {
 			"desc": "B Word Gate Driver-LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16CJ P": {
 			"desc": "Strip High Detector",
-			"module": ""
+			"module": [""]
 		},
 		"T16CK E": {
 			"desc": "Head Pre-Amp",
-			"module": ""
+			"module": [""]
 		},
 		"T16CL E": {
 			"desc": "A Shunt Clipper LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16CN E": {
 			"desc": "A Compensation Amplifier LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16CO E": {
 			"desc": "B Compensation Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T16CT P": {
 			"desc": "Bit Gate Converter LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16CU P": {
 			"desc": "B Group and Driver- LCS",
-			"module": ""
+			"module": [""]
 		},
 		"T16CW P": {
 			"desc": "B Group Driver LCS",
-			"module": ""
+			"module": [""]
 		},
 		"T16CX P": {
 			"desc": "B Group and Converter LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16CY E": {
 			"desc": "Bit Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16CZ P": {
 			"desc": "Bit Driver LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16DA P": {
 			"desc": "A Emitter Clamp- LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16DB P": {
 			"desc": "B Emitter Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"T16DC P": {
 			"desc": "A Reference Clamp LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16DD E": {
 			"desc": "B Reference Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"T16DE E": {
 			"desc": "B Word Driver LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T16DG P": {
 			"desc": "S-9 Bit Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16DK P": {
 			"desc": "Inverter for C E F",
-			"module": ""
+			"module": [""]
 		},
 		"T16DL P": {
 			"desc": "Comp Emitter Follower",
-			"module": ""
+			"module": [""]
 		},
 		"T16DN E": {
 			"desc": "Current Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16DO E": {
 			"desc": "Timing Switch A",
-			"module": ""
+			"module": [""]
 		},
 		"T16DP E": {
 			"desc": "A Current Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T16DQ E": {
 			"desc": "B Current Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T16DR E": {
 			"desc": "VFC Density Switches",
-			"module": ""
+			"module": [""]
 		},
 		"T16DS E": {
 			"desc": "Write Current Control",
-			"module": ""
+			"module": [""]
 		},
 		"T16DT P": {
 			"desc": "SP4 Bit Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16DU P": {
 			"desc": "SP4 Write Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T16DW E": {
 			"desc": "LCS Buffer and Read Bit Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"T16DY E": {
 			"desc": "LCS Detector",
-			"module": ""
+			"module": [""]
 		},
 		"T16DZ E": {
 			"desc": "LCS Final Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T16IA E": {
 			"desc": "LCS Amplifier Inverter",
-			"module": ""
+			"module": [""]
 		},
 		"T16IB E": {
 			"desc": "LCM Bit Gate Pull Down",
-			"module": ""
+			"module": [""]
 		},
 		"T16IC E": {
 			"desc": "Timing Switch B",
-			"module": ""
+			"module": [""]
 		},
 		"T16SA P": {
 			"desc": "Photo Transistor Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T20AB B": {
 			"desc": "400 KC Trigger",
-			"module": ""
+			"module": [""]
 		},
 		"T20AD T": {
 			"desc": "AC Trigger No. 2",
-			"module": ""
+			"module": [""]
 		},
 		"T20AE": {
 			"desc": "Harper Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T20AF": {
 			"desc": "Harper Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T20AG": {
 			"desc": "Integrator-Strobe",
-			"module": ""
+			"module": [""]
 		},
 		"T20AH": {
 			"desc": "S9-Latch",
-			"module": ""
+			"module": [""]
 		},
 		"T20AI": {
 			"desc": "Logic Trigger",
-			"module": ""
+			"module": [""]
 		},
 		"T20AM": {
 			"desc": "AC Trigger",
-			"module": ""
+			"module": [""]
 		},
 		"T20AR": {
 			"desc": "Gated AC Trigger",
-			"module": ""
+			"module": [""]
 		},
 		"T20AT": {
 			"desc": "Gated AC Trigger",
-			"module": ""
+			"module": [""]
 		},
 		"T20AW": {
 			"desc": "Gated AC Trigger 2",
-			"module": ""
+			"module": [""]
 		},
 		"T20BB": {
 			"desc": "CCROS Sense Catch",
-			"module": ""
+			"module": [""]
 		},
 		"T20BC": {
 			"desc": "Special Latch",
-			"module": ""
+			"module": [""]
 		},
 		"T20BD": {
 			"desc": "Special Latch",
-			"module": ""
+			"module": [""]
 		},
 		"T20CD": {
 			"desc": "Multi Gated Trigger",
-			"module": "361435"
+			"module": ["361435"]
 		},
 		"T20CE": {
 			"desc": "Multi Gated Trigger",
-			"module": "361435"
+			"module": ["361435"]
 		},
 		"T20EB": {
 			"desc": "400 KC Trigger",
-			"module": ""
+			"module": [""]
 		},
 		"T20SA": {
 			"desc": "Write Trigger",
-			"module": ""
+			"module": [""]
 		},
 		"T20SB": {
 			"desc": "Multiple Input Trigger Diode",
-			"module": "361435"
+			"module": ["361435"]
 		},
 		"T20SC": {
 			"desc": "Multiple Input Trigger",
-			"module": "361435"
+			"module": ["361435"]
 		},
 		"T20SD": {
 			"desc": "Write Trigger",
-			"module": ""
+			"module": [""]
 		},
 		"T20SE": {
 			"desc": "Trigger 2.1",
-			"module": ""
+			"module": [""]
 		},
 		"T21AH": {
 			"desc": "NPL Final Amp Pulse Shaper + DR",
-			"module": ""
+			"module": [""]
 		},
 		"T21AN": {
 			"desc": "Leading Edge Time Delay",
-			"module": ""
+			"module": [""]
 		},
 		"T21AP": {
 			"desc": "B Group Pulse Generation PNP-LCS",
-			"module": ""
+			"module": [""]
 		},
 		"T21AR": {
 			"desc": "Half Period Gen",
-			"module": ""
+			"module": [""]
 		},
 		"T21AW": {
 			"desc": "Single Shot-Variable",
-			"module": ""
+			"module": [""]
 		},
 		"T21AZ": {
 			"desc": "Variable Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21CC": {
 			"desc": "Variable Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21CF": {
 			"desc": "Variable Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21CH": {
 			"desc": "Single Shot-Fixed",
-			"module": ""
+			"module": [""]
 		},
 		"T21CI": {
 			"desc": "Single Shot 410 ns",
-			"module": ""
+			"module": [""]
 		},
 		"T21CK": {
 			"desc": "250 ns Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21CM": {
 			"desc": "Fixed Single Shot 1",
-			"module": ""
+			"module": [""]
 		},
 		"T21CN": {
 			"desc": "Precise Single Shot Adj",
-			"module": ""
+			"module": [""]
 		},
 		"T21CT": {
 			"desc": "Variable Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21CU": {
 			"desc": "Half Period Gen 2",
-			"module": ""
+			"module": [""]
 		},
 		"T21CW": {
 			"desc": "Single Shot SSB(Var) 78ns-68.5us",
-			"module": ""
+			"module": [""]
 		},
 		"T21SC": {
 			"desc": "Single Shot 1400ns",
-			"module": ""
+			"module": [""]
 		},
 		"T21SD": {
 			"desc": "Single Shot 185 ns",
-			"module": ""
+			"module": [""]
 		},
 		"T21SE": {
 			"desc": "Single Shot with Delay",
-			"module": ""
+			"module": [""]
 		},
 		"T21SH": {
 			"desc": "500ns Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21SJ": {
 			"desc": "7ms Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21SK": {
 			"desc": "Single Shot 600 ms",
-			"module": ""
+			"module": [""]
 		},
 		"T21SL": {
 			"desc": "300ms Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21SS": {
 			"desc": "Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21ST": {
 			"desc": "Single Shot 1",
-			"module": ""
+			"module": [""]
 		},
 		"T21SU": {
 			"desc": "Single Shot 2",
-			"module": ""
+			"module": [""]
 		},
 		"T21SV": {
 			"desc": "1060 ns Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21SW": {
 			"desc": "300 ns Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21SX": {
 			"desc": "1100 ns Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21SY": {
 			"desc": "Variable Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21TA": {
 			"desc": "110 ns Single Shot ",
-			"module": ""
+			"module": [""]
 		},
 		"T21TB": {
 			"desc": "Variable Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21TC": {
 			"desc": "2 ms Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21TD": {
 			"desc": "10 ms Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21TE": {
 			"desc": "800ns SS",
-			"module": ""
+			"module": [""]
 		},
 		"T21TG": {
 			"desc": "15 ms SS",
-			"module": ""
+			"module": [""]
 		},
 		"T21TJ": {
 			"desc": "100 ns Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T21TK": {
 			"desc": "500 ns Single Shot",
-			"module": ""
+			"module": [""]
 		},
 		"T22AB": {
 			"desc": "2KC Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"T22AC": {
 			"desc": "20KC Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"T22AF": {
 			"desc": "1.667 MC Crystal Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"T22AH": {
 			"desc": "2.4MC Xtal OSC",
-			"module": ""
+			"module": [""]
 		},
 		"T22BC": {
 			"desc": "Clock Oscillator 3.2 MC",
-			"module": ""
+			"module": [""]
 		},
 		"T22BD": {
 			"desc": "170 KC Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"T22EA": {
 			"desc": "2.0MC Crystal Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"T22EB": {
 			"desc": "3 Per cent 117.2 CPS Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"T22SB": {
 			"desc": "2 MC Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"T22SC": {
 			"desc": "4 MC Crystal Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"T22SD": {
 			"desc": "Clock 1.44 MC",
-			"module": ""
+			"module": [""]
 		},
 		"T22SE": {
 			"desc": "2.5MC Xtal Oscillator",
-			"module": ""
+			"module": [""]
 		},
 		"T22SG": {
 			"desc": "Gated Multivibrator",
-			"module": ""
+			"module": [""]
 		},
 		"T25AA": {
 			"desc": "NPL Final Amp Low Accept Clip",
-			"module": ""
+			"module": [""]
 		},
 		"T25AB": {
 			"desc": "NPL Final Amp Hi Accept Clip",
-			"module": ""
+			"module": [""]
 		},
 		"T25AD": {
 			"desc": "Regulator 28.5V",
-			"module": ""
+			"module": [""]
 		},
 		"T25AG": {
 			"desc": "Sense Level Set",
-			"module": ""
+			"module": [""]
 		},
 		"T25AH": {
 			"desc": "Voltage Reference",
-			"module": ""
+			"module": [""]
 		},
 		"T25AL": {
 			"desc": "AB Ground Clamp- LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T25AM": {
 			"desc": "Base Clamp C13",
-			"module": ""
+			"module": [""]
 		},
 		"T25BB": {
 			"desc": "Sense Clamp Pwr Ampl",
-			"module": ""
+			"module": [""]
 		},
 		"T25BC": {
 			"desc": "Sense Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"T25BD": {
 			"desc": "+3V Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"T25BE": {
 			"desc": "Sense Clamp PWR Amp",
-			"module": ""
+			"module": [""]
 		},
 		"T25BF": {
 			"desc": "Sense Clamp PWR Amp",
-			"module": ""
+			"module": [""]
 		},
 		"T25BG": {
 			"desc": "Over Voltage Limiter",
-			"module": ""
+			"module": [""]
 		},
 		"T25EE": {
 			"desc": "Signal Detector",
-			"module": ""
+			"module": [""]
 		},
 		"T25EF": {
 			"desc": "Gate Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"T25EH": {
 			"desc": "Delay Line Detector",
-			"module": ""
+			"module": [""]
 		},
 		"T25SB": {
 			"desc": "Current Control",
-			"module": ""
+			"module": [""]
 		},
 		"T25SC": {
 			"desc": "Current Voltage",
-			"module": ""
+			"module": [""]
 		},
 		"T25SD": {
 			"desc": "Offset Voltage",
-			"module": ""
+			"module": [""]
 		},
 		"T26AA": {
 			"desc": "NPL Final Amp Low Accept Clip",
-			"module": ""
+			"module": [""]
 		},
 		"T26AB": {
 			"desc": "NPL Final Amp Hi Accept Clip",
-			"module": ""
+			"module": [""]
 		},
 		"T27BB": {
 			"desc": "Sense Clamp Power Amp",
-			"module": ""
+			"module": [""]
 		},
 		"T27BC": {
 			"desc": "Sense Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"T27BD": {
 			"desc": "+3 V Clamp",
-			"module": ""
+			"module": [""]
 		},
 		"T30BC": {
 			"desc": "Punch Magnet Driver Grouping",
-			"module": ""
+			"module": [""]
 		},
 		"T31BC": {
 			"desc": "Change Over Switch",
-			"module": ""
+			"module": [""]
 		},
 		"T31BD": {
 			"desc": "3-Way Change Over",
-			"module": ""
+			"module": [""]
 		},
 		"T31BE": {
 			"desc": "Lamp Test Switch",
-			"module": ""
+			"module": [""]
 		},
 		"T32AF": {
 			"desc": "NPL Final Amp Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T32AH": {
 			"desc": "Core-Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T32BA": {
 			"desc": "Line Receiver Grouping",
-			"module": ""
+			"module": [""]
 		},
 		"T32BD": {
 			"desc": "Threshold Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T32BE": {
 			"desc": "Latch Stage II",
-			"module": ""
+			"module": [""]
 		},
 		"T32BF": {
 			"desc": "Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T32EB": {
 			"desc": "Trigger Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T32SA": {
 			"desc": "Arrival Detector",
-			"module": ""
+			"module": [""]
 		},
 		"T32SC": {
 			"desc": "Arrival-Capacitor AND Gate",
-			"module": ""
+			"module": [""]
 		},
 		"T32SF": {
 			"desc": "Home Driver AND",
-			"module": ""
+			"module": [""]
 		},
 		"T32SG": {
 			"desc": "Integrator Reset",
-			"module": ""
+			"module": [""]
 		},
 		"T32SH": {
 			"desc": "CE Run",
-			"module": ""
+			"module": [""]
 		},
 		"T32SI": {
 			"desc": "Detent Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T40AA": {
 			"desc": "NPL Final Amp Rect + Chan Sep",
-			"module": ""
+			"module": [""]
 		},
 		"T40AB": {
 			"desc": "NPL Final Amp .9V Zener Supply",
-			"module": ""
+			"module": [""]
 		},
 		"T40AE": {
 			"desc": "Limit Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T40AF": {
 			"desc": "Index Pulse Amplifier",
-			"module": ""
+			"module": [""]
 		},
 		"T40AG": {
 			"desc": "Format Select",
-			"module": ""
+			"module": [""]
 		},
 		"T40AH": {
 			"desc": "8 Position Clock",
-			"module": ""
+			"module": [""]
 		},
 		"T40AI": {
 			"desc": "6 Position Counter",
-			"module": ""
+			"module": [""]
 		},
 		"T40AJ": {
 			"desc": "Differential Amp for Sense Amp LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T40AK": {
 			"desc": "VFC Pulser",
-			"module": ""
+			"module": [""]
 		},
 		"T40AL": {
 			"desc": "Variable Frequency Clock",
-			"module": ""
+			"module": [""]
 		},
 		"T40AN": {
 			"desc": "Variable Current Source",
-			"module": ""
+			"module": [""]
 		},
 		"T40AP": {
 			"desc": "SA Gate Generator",
-			"module": ""
+			"module": [""]
 		},
 		"T40AR": {
 			"desc": "Variable Frequency Clock 2",
-			"module": ""
+			"module": [""]
 		},
 		"T40BB": {
 			"desc": "Buffered Sense Latch",
-			"module": ""
+			"module": [""]
 		},
 		"T40SA": {
 			"desc": "Constant Current Lamp Supply",
-			"module": ""
+			"module": [""]
 		},
 		"T40SB": {
 			"desc": "Current Source",
-			"module": ""
+			"module": [""]
 		},
 		"T40SC": {
 			"desc": "Summing Amp Current Source",
-			"module": ""
+			"module": [""]
 		},
 		"T40SD": {
 			"desc": "Write Bypass",
-			"module": ""
+			"module": [""]
 		},
 		"T40SE": {
 			"desc": "Differentiator",
-			"module": ""
+			"module": [""]
 		},
 		"T40SG": {
 			"desc": "Power Supply Safety +6 V",
-			"module": ""
+			"module": [""]
 		},
 		"T40SH": {
 			"desc": "Blocking Valve Det. Output",
-			"module": ""
+			"module": [""]
 		},
 		"T40SI": {
 			"desc": "Single Shot 750 usec",
-			"module": ""
+			"module": [""]
 		},
 		"T40SJ": {
 			"desc": "Current Control",
-			"module": ""
+			"module": [""]
 		},
 		"T40SK": {
 			"desc": "Sense Level",
-			"module": ""
+			"module": [""]
 		},
 		"T40SL": {
 			"desc": "Reference Voltage",
-			"module": ""
+			"module": [""]
 		},
 		"T45AC": {
 			"desc": "125 ns Delay Line",
-			"module": ""
+			"module": [""]
 		},
 		"T45AF": {
 			"desc": "15 Second Delay",
-			"module": ""
+			"module": [""]
 		},
 		"T45AG": {
 			"desc": "250 nsec Tapped Delay Line",
-			"module": ""
+			"module": [""]
 		},
 		"T45AH": {
 			"desc": "500 nsec Delay Line Tapped",
-			"module": ""
+			"module": [""]
 		},
 		"T45AL": {
 			"desc": "Motor Delay Circuit",
-			"module": ""
+			"module": [""]
 		},
 		"T45BB": {
 			"desc": "Variable Delay Line",
-			"module": ""
+			"module": [""]
 		},
 		"T45BC": {
 			"desc": "Clock Delay",
-			"module": ""
+			"module": [""]
 		},
 		"T45EC": {
 			"desc": "200 ns Delay Circuit",
-			"module": ""
+			"module": [""]
 		},
 		"T45ED": {
 			"desc": "350 ns Delay Line",
-			"module": ""
+			"module": [""]
 		},
 		"T45LC": {
 			"desc": "RC Delay Circuit 250 ns",
-			"module": ""
+			"module": [""]
 		},
 		"T45LD": {
 			"desc": "RC Delay Circuit 440 ns",
-			"module": ""
+			"module": [""]
 		},
 		"T45LE": {
 			"desc": "RC Delay Circuit 160 ns",
-			"module": ""
+			"module": [""]
 		},
 		"T45LG": {
 			"desc": "RC Delay Circuit 2.1 ns",
-			"module": ""
+			"module": [""]
 		},
 		"T45LH": {
 			"desc": "RC Delay Circuit 500 ns",
-			"module": ""
+			"module": [""]
 		},
 		"T45LI": {
 			"desc": "RC Delay Circuit 176 ns",
-			"module": ""
+			"module": [""]
 		},
 		"T45SA": {
 			"desc": "Delay File Ready",
-			"module": ""
+			"module": [""]
 		},
 		"T55AA": {
 			"desc": "Indicator Coupling Network",
-			"module": ""
+			"module": [""]
 		},
 		"T55AB": {
 			"desc": "ICN-Lamp",
-			"module": ""
+			"module": [""]
 		},
 		"T55AC": {
 			"desc": "Indicator Lamp-3V",
-			"module": ""
+			"module": [""]
 		},
 		"T55AD": {
 			"desc": "15ma Switch ID No Load",
-			"module": ""
+			"module": ["361480"]
+		},
+		"T55AF": {
+			"desc": "15ma Switch ID (TODO: ADD DETAILS!)",
+			"module": ["361480"]
 		},
 		"T55AH": {
 			"desc": "40 ma Ind Driver Unloaded",
-			"module": ""
+			"module": ["361426"]
 		},
 		"T55AI": {
 			"desc": "40 ma Indicator Driver",
-			"module": ""
+			"module": ["361426"]
 		},
 		"T55AM": {
 			"desc": "15 ma Indicator Driver",
-			"module": ""
+			"module": [""]
 		},
 		"T55AN": {
 			"desc": "15 ma Indicator Driver with Network",
-			"module": ""
+			"module": [""]
 		},
 		"T55BB": {
 			"desc": "Indicator",
-			"module": ""
+			"module": [""]
 		},
 		"T60AA": {
 			"desc": "50V Decoupling Network",
-			"module": ""
+			"module": [""]
 		},
 		"T60AB": {
 			"desc": "20V Decoupling Network",
-			"module": ""
+			"module": [""]
 		},
 		"T60AI": {
 			"desc": "+48V Integrator",
-			"module": ""
+			"module": [""]
 		},
 		"T60AJ": {
 			"desc": "20V Integrator",
-			"module": ""
+			"module": [""]
 		},
 		"T60BF": {
 			"desc": "Switch Integrating Network",
-			"module": ""
+			"module": [""]
 		},
 		"T60SA": {
 			"desc": "AC Write Current Int",
-			"module": ""
+			"module": [""]
 		},
 		"T60SE": {
 			"desc": "Integrator",
-			"module": ""
+			"module": [""]
 		},
 		"T61AA": {
 			"desc": "750 Ohm Load Resistor",
-			"module": ""
+			"module": ["361451","361453"]
 		},
 		"T61AB": {
 			"desc": "750 Ohm Load Resistor",
-			"module": ""
+			"module": ["361451","361453"]
 		},
 		"T61AC": {
 			"desc": "350 Ohm Load Resistor to +3V",
-			"module": ""
+			"module": ["361454","361479"]
 		},
 		"T61AD": {
 			"desc": "Line Terminator Network",
-			"module": ""
+			"module": [""]
 		},
 		"T61AG": {
 			"desc": "Bit Gate Converter Load Resistor LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T61AJ": {
 			"desc": "300 Ohm Load Resistor to +3V",
-			"module": ""
+			"module": ["361473","361477"]
 		},
 		"T61AK": {
 			"desc": "750 Ohm Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"T61AM": {
 			"desc": "630 Ohm Load Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"T61AN": {
 			"desc": "Load Resistor-232 Ohms",
-			"module": ""
+			"module": [""]
 		},
 		"T61AO": {
 			"desc": "NPL Final Amp Input Terminator",
-			"module": ""
+			"module": [""]
 		},
 		"T61AP": {
 			"desc": "100 Ohm Terminating Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"T61AW": {
 			"desc": "100uH Inductor to -3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61AX": {
 			"desc": "160 Ohm Resistor to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61BD": {
 			"desc": "Driver Damping Network",
-			"module": ""
+			"module": [""]
 		},
 		"T61BE": {
 			"desc": "Driver Collector Load",
-			"module": ""
+			"module": [""]
 		},
 		"T61BF": {
 			"desc": "Driver Emitter Load",
-			"module": ""
+			"module": [""]
 		},
 		"T61BG": {
 			"desc": "130 Ohm to + 3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61BI": {
 			"desc": "Resistor Comb",
-			"module": ""
+			"module": [""]
 		},
 		"T61BJ": {
 			"desc": "Delay Line Terminator",
-			"module": ""
+			"module": [""]
 		},
 		"T61BK": {
 			"desc": "Resistor 759 Ohm to -3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61BL": {
 			"desc": "100 Ohm to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61BM": {
 			"desc": "220 Ohm to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61BN": {
 			"desc": "300 Ohm to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61BO": {
 			"desc": "Resistor 300 Ohm to -3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61BP": {
 			"desc": "Resistor 1.8K to -3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61BR": {
 			"desc": "180 Ohm Resistor to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61BS": {
 			"desc": "Selector Decouling Network",
-			"module": ""
+			"module": [""]
 		},
 		"T61BT": {
 			"desc": "Driver Collector Load",
-			"module": ""
+			"module": [""]
 		},
 		"T61BU": {
 			"desc": "Decoupling Network A",
-			"module": ""
+			"module": [""]
 		},
 		"T61BV": {
 			"desc": "Decoupling Network B",
-			"module": ""
+			"module": [""]
 		},
 		"T61BW": {
 			"desc": "+12V Marginal Power Supply",
-			"module": ""
+			"module": [""]
 		},
 		"T61BX": {
 			"desc": "110 Ohm to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61BY": {
 			"desc": "180 Ohm to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61BZ": {
 			"desc": "120 Ohm to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61CC": {
 			"desc": "430 Ohm to +6M",
-			"module": ""
+			"module": [""]
 		},
 		"T61CF": {
 			"desc": "FDD",
-			"module": ""
+			"module": [""]
 		},
 		"T61CG": {
 			"desc": "Type DD Diode",
-			"module": ""
+			"module": [""]
 		},
 		"T61CH": {
 			"desc": "Type DE Diode",
-			"module": ""
+			"module": [""]
 		},
 		"T61CK": {
 			"desc": "Resistor-Choke",
-			"module": ""
+			"module": [""]
 		},
 		"T61CL": {
 			"desc": "175 Ohm to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61CN": {
 			"desc": "Biasing Network",
-			"module": ""
+			"module": [""]
 		},
 		"T61CR": {
 			"desc": "Write Bit Resistor-LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T61CS": {
 			"desc": "Type DO Diode Supressor",
-			"module": ""
+			"module": [""]
 		},
 		"T61CV": {
 			"desc": "Type DE Diode",
-			"module": ""
+			"module": [""]
 		},
 		"T61CW": {
 			"desc": "HPD Load Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"T61CY": {
 			"desc": "1.175K Load Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"T61CZ": {
 			"desc": "2K Potentiometer",
-			"module": ""
+			"module": [""]
 		},
 		"T61DA": {
 			"desc": "750 Ohm to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61DC": {
 			"desc": "100 Ohm Line Terminating to +3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61DD": {
 			"desc": "Magnetic Head Differentiator",
-			"module": ""
+			"module": [""]
 		},
 		"T61DE": {
 			"desc": "Bit Gate Diode LCM",
-			"module": ""
+			"module": [""]
 		},
 		"T61DF": {
 			"desc": "Resistor 38.3 Ohm",
-			"module": ""
+			"module": [""]
 		},
 		"T61DG": {
 			"desc": "Bit Gate Converter Load Resistor",
-			"module": ""
+			"module": [""]
 		},
 		"T61EA": {
 			"desc": "600 Ohm Resistor Load to +6V",
-			"module": ""
+			"module": [""]
 		},
 		"T61EE": {
 			"desc": "164 Ohms to -3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61EF": {
 			"desc": "820 Ohm Resistor to +6V",
-			"module": ""
+			"module": [""]
 		},
 		"T61JB": {
 			"desc": "680 Ohm to +6V",
-			"module": ""
+			"module": [""]
 		},
 		"T61JD": {
 			"desc": "240 Ohm to -3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61JE": {
 			"desc": "+ 6V Decoupling Network",
-			"module": ""
+			"module": [""]
 		},
 		"T61SB": {
 			"desc": "Detent Level Setter",
-			"module": ""
+			"module": [""]
 		},
 		"T61SC": {
 			"desc": "Cylinder A.C. Level Setter",
-			"module": ""
+			"module": [""]
 		},
 		"T61SD": {
 			"desc": "Index Level Setter",
-			"module": ""
+			"module": [""]
 		},
 		"T61SE": {
 			"desc": "51 Ohm Resistor to -3V",
-			"module": ""
+			"module": [""]
 		},
 		"T61SJ": {
 			"desc": "R.C. Filter",
-			"module": ""
+			"module": [""]
 		},
 		"T61SN": {
 			"desc": "130 Ohm Resistor to +6V",
-			"module": ""
+			"module": [""]
 		},
 		"T61SQ": {
 			"desc": "Biasing Networki",
-			"module": ""
+			"module": [""]
 		},
 		"T61SS": {
 			"desc": "Single Step Differentiator",
-			"module": ""
+			"module": [""]
 		},
 		"T61ST": {
 			"desc": "Resistor 2K",
-			"module": ""
+			"module": [""]
 		},
 		"T63AA": {
 			"desc": "Coil for 6 Contact Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"T63AB": {
 			"desc": "Points for 6 Contact RR",
-			"module": ""
+			"module": [""]
 		},
 		"T63AC": {
 			"desc": "6 Contact Reed Relay",
-			"module": ""
+			"module": [""]
 		},
 		"T66AA": {
 			"desc": "NPL Final Amp Pulse Shape AND Dr",
-			"module": ""
+			"module": [""]
+		},
+		"U55AA": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361480"]
+		},
+		"U55AB": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361426"]
+		},
+		"U55AC": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361480"]
+		},
+		"U55AD": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361480"]
+		},
+		"U55AJ": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361426"]
 		}
 	}
 }
