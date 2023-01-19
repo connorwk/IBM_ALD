@@ -4131,6 +4131,66 @@
 			"desc": "NPL Final Amp Pulse Shape AND Dr",
 			"module": [""]
 		},
+		"U01AB": {
+			"desc": "TODO: ADD DETAILS! (this may be a doc typo for U03AB...)",
+			"module": ["361408"]
+		},
+		"U03AB": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03AI": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03AJ": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03AK": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03AL": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03AM": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03AU": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03AV": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408","361413"]
+		},
+		"U03AW": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03AX": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03AY": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03AZ": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03CA": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U03VF": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361412"]
+		},
 		"U55AA": {
 			"desc": "TODO: ADD DETAILS!",
 			"module": ["361480"]
@@ -4150,6 +4210,14 @@
 		"U55AJ": {
 			"desc": "TODO: ADD DETAILS!",
 			"module": ["361426"]
+		},
+		"U61AB": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
+		},
+		"U61AC": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361408"]
 		},
 		"V03AA": {
 			"desc": "AND diodes 11K to +12V",
