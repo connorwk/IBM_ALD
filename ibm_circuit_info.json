@@ -256,7 +256,7 @@
 		},
 		"S06EA": {
 			"desc": "NPL Termination",
-			"module": [""]
+			"module": ["361446"]
 		},
 		"S06SA": {
 			"desc": "Line Driver",
@@ -4025,6 +4025,138 @@
 		"U55AJ": {
 			"desc": "TODO: ADD DETAILS!",
 			"module": ["361426"]
+		},
+		"V03AA": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361445","361489","361493","361495"]
+		},
+		"V03AB": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361445","361493"]
+		},
+		"V03AC": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361493"]
+		},
+		"V03AE": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361492","361496"]
+		},
+		"V03AF": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361492"]
+		},
+		"V03AG": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361492"]
+		},
+		"V03AH": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361492"]
+		},
+		"V03AI": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361492"]
+		},
+		"V03AJ": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361493"]
+		},
+		"V03AK": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361493"]
+		},
+		"V03AL": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361445","361493"]
+		},
+		"V03AO": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361489","361495"]
+		},
+		"V03AR": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361495","361496"]
+		},
+		"V03AS": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361495","361496"]
+		},
+		"V03AT": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361492"]
+		},
+		"V03AV": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361492","361493"]
+		},
+		"V03AW": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361493"]
+		},
+		"V03AX": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361492","361496"]
+		},
+		"V03EB": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361445","361493"]
+		},
+		"V06AC": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361494"]
+		},
+		"V06AD": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361494"]
+		},
+		"V06AE": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361494"]
+		},
+		"V06AF": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361494"]
+		},
+		"V06EC": {
+			"desc": "Transmission Line Receiver Terminator",
+			"module": ["361415"]
+		},
+		"V06EE": {
+			"desc": "Transmission Line Receiver (confirm w/o Load?)",
+			"module": ["361415"]
+		},
+		"V06EF": {
+			"desc": "Transmission Line Receiver W LD (confirm w Load?)",
+			"module": ["361415"]
+		},
+		"V06EI": {
+			"desc": "Transmission Line Receiver (confirm w/o Load?)",
+			"module": ["361446"]
+		},
+		"V06EJ": {
+			"desc": "Transmission Line Receiver W LD (confirm w Load?)",
+			"module": ["361446"]
+		},
+		"V20AB": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361436"]
+		},
+		"V20AC": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361436"]
+		},
+		"V20AD": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361436"]
+		},
+		"V61AA": {
+			"desc": "2.9K resistor to +12V",
+			"module": ["361492"]
+		},
+		"V61AB": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361445","361493"]
 		}
 	}
 }
