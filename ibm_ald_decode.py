@@ -51,6 +51,9 @@ def search():
 	else:
 		classbox.config(text="UNKNOWN")
 	
+	prevbutton.config(state="disabled")
+	nextbutton.config(state="disabled")
+	
 	if circnum in circuit_data["circuit_dict"]:
 		descbox.config(text=circuit_data["circuit_dict"][circnum]["desc"])
 		modulelist = ""
@@ -58,16 +61,16 @@ def search():
 			modulelist = modulelist + module + ", "
 		modulelist = modulelist[:-2]
 		modulesbox.config(text=modulelist)
-		prevbutton.config(state="disabled")
-		nextbutton.config(state="disabled")
 		if circuit_data["circuit_dict"][circnum]["module"][0] != "":
 			bottomcanvas.itemconfig(image_container, image=photos[circuit_data["circuit_dict"][circnum]["module"][0]])
 			if len(circuit_data["circuit_dict"][circnum]["module"]) > 1:
 				nextbutton.config(state="active")
 		else:
+			modulesbox.config(text="UNKNOWN")
 			bottomcanvas.itemconfig(image_container, image=photos["unknown"])
 	else:
 		descbox.config(text="UNKNOWN")
+		modulesbox.config(text="UNKNOWN")
 		bottomcanvas.itemconfig(image_container, image=photos["unknown"])
 	
 	return 0
