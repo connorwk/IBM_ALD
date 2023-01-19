@@ -4135,9 +4135,29 @@
 			"desc": "TODO: ADD DETAILS! (this may be a doc typo for U03AB...)",
 			"module": ["361408"]
 		},
+		"U03AA": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361404","361406"]
+		},
 		"U03AB": {
 			"desc": "TODO: ADD DETAILS!",
 			"module": ["361408"]
+		},
+		"U03AC": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361406"]
+		},
+		"U03AD": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361406"]
+		},
+		"U03AE": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361406"]
+		},
+		"U03AF": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361406"]
 		},
 		"U03AI": {
 			"desc": "TODO: ADD DETAILS!",
@@ -4158,6 +4178,26 @@
 		"U03AM": {
 			"desc": "TODO: ADD DETAILS!",
 			"module": ["361408"]
+		},
+		"U03AP": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361404"]
+		},
+		"U03AQ": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361404"]
+		},
+		"U03AR": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361404"]
+		},
+		"U03AS": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361404"]
+		},
+		"U03AT": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361404"]
 		},
 		"U03AU": {
 			"desc": "TODO: ADD DETAILS!",
@@ -4187,9 +4227,49 @@
 			"desc": "TODO: ADD DETAILS!",
 			"module": ["361408"]
 		},
+		"U03CK": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361406"]
+		},
+		"U03CL": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361406"]
+		},
+		"U03CN": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361404"]
+		},
+		"U03CM": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361404"]
+		},
+		"U03CU": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361404"]
+		},
+		"U03CT": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361404"]
+		},
+		"U03VC": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361406"]
+		},
+		"U03VD": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361406"]
+		},
 		"U03VF": {
 			"desc": "TODO: ADD DETAILS!",
 			"module": ["361412"]
+		},
+		"U03VG": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361406"]
+		},
+		"U03VH": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361406"]
 		},
 		"U55AA": {
 			"desc": "TODO: ADD DETAILS!",
@@ -4213,7 +4293,7 @@
 		},
 		"U61AB": {
 			"desc": "TODO: ADD DETAILS!",
-			"module": ["361408"]
+			"module": ["361408","361404","361406"]
 		},
 		"U61AC": {
 			"desc": "TODO: ADD DETAILS!",
@@ -4301,7 +4381,7 @@
 		},
 		"V03CI": {
 			"desc": "TODO: ADD DETAILS!",
-			"module": ["361417","361419"]
+			"module": ["361417","361419","361404"]
 		},
 		"V03EB": {
 			"desc": "TODO: ADD DETAILS!",
