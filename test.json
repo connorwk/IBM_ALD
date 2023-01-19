@@ -1,0 +1,93 @@
+{
+"pages": {
+	"DN101": {
+		"Name": "OP DECODE NO. 1",
+		"BlockSN": {
+			"BD": {
+				"Name": "",
+				"Func": " SERV*",
+				"ACC": "", "SP": "",
+				"CircuitNum": "GND",
+				"CardType": "", "SubPortion": "",
+				"Location": "B-A1C2",
+				"PrintPos": "1B",
+				"IO": {
+					"2": {"Pin": "B04", "Func": "K"},
+					"4": {"Pin": "D08", "Func": "i"}
+				}
+			},
+			"AA": {
+				"Name": "00110",
+				"Func": "A",
+				"ACC": "", "SP": "",
+				"CircuitNum": "T03AC",
+				"CardType": "4676", "SubPortion": "A1",
+				"Location": "B-A1C2",
+				"PrintPos": "2B",
+				"IO": {
+					"B": {"Pin": "J11", "Func": ""},
+					"C": {"Pin": "D07", "Func": ""},
+					"D": {"Pin": "J13", "Func": ""},
+					"E": {"Pin": "G10", "Func": ""},
+					"F": {"Pin": "J10", "Func": ""},
+					"4": {"Pin": "---", "Func": ""}
+				}
+			},
+			"AC": {
+				"Name": "XIO",
+				"Func": "A",
+				"ACC": "", "SP": "",
+				"CircuitNum": "T03AB",
+				"CardType": "4676", "SubPortion": "A3",
+				"Location": "B-A1C2",
+				"PrintPos": "2D",
+				"IO": {
+					"B": {"Pin": "J11", "Func": ""},
+					"C": {"Pin": "J13", "Func": ""},
+					"D": {"Pin": "J09", "Func": ""},
+					"E": {"Pin": "G07", "Func": ""},
+					"F": {"Pin": "J12", "Func": ""},
+					"4": {"Pin": "J02", "Func": "i"}
+				}
+			}
+		},
+		"Connections": {
+			"PageIn": [
+				{
+					"Name": "+ OP BIT 3",
+					"Page": "RN101",
+					"SrcPin": "BJ2",
+					"BlockSNInPos": {
+						"AA": "F",
+						"AD": "D",
+						"AE": "D",
+						"AW": "F"
+					},
+					"PrintPos": "A5"
+				}
+			],
+			"OnPage": {
+				"BD": {
+					"4": {
+						"BD": "2"
+					}
+				},
+				"AA": {
+					"4": {
+						"AL": "D"
+					}
+				},
+				"AC": {
+					"4": {
+						"AM": "D",
+						"out": "C7"
+					}
+				}
+			},
+			"PageOutLabels": {
+				"AC4": {"Name": "- XIO OP", "Pages": ["KT311"]}
+			}
+		}
+	}
+}
+}
