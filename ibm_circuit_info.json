@@ -3,6 +3,7 @@
 		"S": "SRETL General",
 		"T": "30 ns",
 		"U": "5-10 ns",
+		"R": "100 ns",
 		"V": "700 ns",
 		"O": "Analog"
 	},
@@ -30,6 +31,54 @@
 		"66": "Field Replacement Card"
 	},
 	"circuit_dict": {
+		"R03AA": {
+			"desc": "AND diodes 4.5K to +6V",
+			"module": ["361440","361441","361443","361444","361452"]
+		},
+		"R03AB": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361440","361441","361443","361452"]
+		},
+		"R03AC": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361440","361441","361443"]
+		},
+		"R03AE": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361440","361441","361443","361452"]
+		},
+		"R03AJ": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["2395140"]
+		},
+		"R05AA": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361442","361452"]
+		},
+		"R05AB": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361442"]
+		},
+		"R05AC": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361442"]
+		},
+		"R20AA": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361458"]
+		},
+		"R20AB": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361458"]
+		},
+		"R20AC": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361458"]
+		},
+		"R20AD": {
+			"desc": "TODO: ADD DETAILS!",
+			"module": ["361458"]
+		},
 		"S03AG": {
 			"desc": "Multiplex Interface Driver-M4",
 			"module": [""]
