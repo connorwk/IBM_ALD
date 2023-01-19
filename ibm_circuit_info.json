@@ -4027,7 +4027,7 @@
 			"module": ["361426"]
 		},
 		"V03AA": {
-			"desc": "TODO: ADD DETAILS!",
+			"desc": "AND diodes 11K to +12V",
 			"module": ["361445","361489","361493","361495"]
 		},
 		"V03AB": {
@@ -4155,7 +4155,7 @@
 			"module": ["361492"]
 		},
 		"V61AB": {
-			"desc": "TODO: ADD DETAILS!",
+			"desc": "5K Resistor",
 			"module": ["361445","361493"]
 		}
 	}
