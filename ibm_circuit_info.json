@@ -3439,6 +3439,10 @@
 			"desc": "Gated Multivibrator",
 			"module": [""]
 		},
+		"T22SI": {
+			"desc": "2.25 MC Crystal Oscillator",
+			"module": [""]
+		},
 		"T25AA": {
 			"desc": "NPL Final Amp Low Accept Clip",
 			"module": [""]
