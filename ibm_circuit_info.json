@@ -3439,6 +3439,10 @@
 			"desc": "Gated Multivibrator",
 			"module": [""]
 		},
+		"T22SI": {
+			"desc": "2.250 MC Oscillator Card",
+			"module": ["5803765"]
+		},
 		"T25AA": {
 			"desc": "NPL Final Amp Low Accept Clip",
 			"module": [""]
